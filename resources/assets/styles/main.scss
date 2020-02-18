@@ -1,5 +1,6 @@
 @import "common/variables";
 @import "bootstrap";
+@import "common/global";
 
 /** Utilities & Helpers */
 @import "utilities/position";
@@ -27,8 +28,34 @@
  * - generic components can be buttons, navs, gallery slider
  * - page-specific components such as testimonials
  */
-// @import "components/buttons";
-@import "common/_fonts";
+@import "common/fonts";
+@import "common/buttons";
+// index
+@import "common/mobile-menu";
+@import "common/top-nav";
+@import "components/home-hero";
+@import "components/home-preview";
+@import "common/miniature";
+@import "common/hoogte";
+@import "common/slider";
+@import "common/footer";
+//over ons
+@import "common/main-header";
+@import "common/hex";
+@import "components/team";
+@import "components/partners";
+//scholen
+@import "common/scholen-hex";
+@import "common/ticks";
+//opleidingen
+@import "components/opl-summary";
+@import "components/opl-hero";
+//downloads
+@import "components/download-summary";
+//referenties
+@import "components/ref-hero";
+//contact-page
+@import "components/contact";
 
 /**
  * ==========
@@ -37,4 +64,15 @@
  * Layouts define the scaffold of the application
  * such as header, footer
  */
-// @import "layouts/base";
+@import "layouts/index";
+@import "layouts/over-ons";
+@import "layouts/scholen-1";
+@import "layouts/scholen-2";
+@import "layouts/opleidingen-1";
+@import "layouts/opleidingen-2";
+@import "layouts/downloads";
+@import "layouts/nieuws-1";
+@import "layouts/nieuws-2";
+@import "layouts/referenties-1";
+@import "layouts/referenties-2";
+@import "layouts/contact-page";
