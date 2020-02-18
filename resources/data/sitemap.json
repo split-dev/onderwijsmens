@@ -1,0 +1,49 @@
+{
+  "page_title": "Sitemap",
+  "sitemap": [
+    {
+      "title": "Home Page",
+      "url": "/index.html"
+    },
+    {
+      "title": "Financial Advisors",
+      "url": "/financial-advisors.html"
+    },
+    {
+      "title": "Direct Investor",
+      "url": "/direct-investor.html"
+    },
+    {
+      "title": "Why Swell",
+      "url": "/why-swell.html"
+    },
+    {
+      "title": "Resources",
+      "url": "/resources.html"
+    },
+    {
+      "title": "Blog",
+      "url": "/blog.html"
+    },
+    {
+      "title": "Team Page",
+      "url": "/team-page.html"
+    },
+    {
+      "title": "Contact",
+      "url": "/contact.html"
+    },
+    {
+      "title": "Individual Resources",
+      "url": "/individual-resources.html"
+    },
+    {
+      "title": "Performance",
+      "url": "/performance.html"
+    },
+    {
+      "title": "Individual Blog",
+      "url": "/individual-blog.html"
+    }
+  ]
+}
