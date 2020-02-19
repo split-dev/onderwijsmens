@@ -6,44 +6,48 @@
       "url": "/index.html"
     },
     {
-      "title": "Financial Advisors",
-      "url": "/financial-advisors.html"
+      "title": "Over Ons",
+      "url": "/over-ons.html"
     },
     {
-      "title": "Direct Investor",
-      "url": "/direct-investor.html"
+      "title": "Scholen",
+      "url": "/scholen-1.html"
     },
     {
-      "title": "Why Swell",
-      "url": "/why-swell.html"
+      "title": "Bestuur",
+      "url": "/scholen-2.html"
     },
     {
-      "title": "Resources",
-      "url": "/resources.html"
+      "title": "Opleidingen-1",
+      "url": "/opleidingen-1.html"
     },
     {
-      "title": "Blog",
-      "url": "/blog.html"
+      "title": "Opleidingen-2",
+      "url": "/opleidingen-2.html"
     },
     {
-      "title": "Team Page",
-      "url": "/team-page.html"
+      "title": "Nieuws-1",
+      "url": "/nieuws-1.html"
+    },
+    {
+      "title": "Nieuws-2",
+      "url": "/nieuws-2.html"
+    },
+    {
+      "title": "Referenties-1",
+      "url": "/referenties-1.html"
+    },
+    {
+      "title": "Referenties-2",
+      "url": "/referenties-2.html"
+    },
+    {
+      "title": "Downloads",
+      "url": "/downloads.html"
     },
     {
       "title": "Contact",
-      "url": "/contact.html"
-    },
-    {
-      "title": "Individual Resources",
-      "url": "/individual-resources.html"
-    },
-    {
-      "title": "Performance",
-      "url": "/performance.html"
-    },
-    {
-      "title": "Individual Blog",
-      "url": "/individual-blog.html"
+      "url": "/contact-page.html"
     }
   ]
 }
