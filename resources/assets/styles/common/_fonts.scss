@@ -44,3 +44,15 @@
   font-weight: 300;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "NexaBold";
+  src:
+    url("../../fonts/NexaBold.eot"),
+    url("../../fonts/NexaBold.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/NexaBold.woff2") format("woff2"),
+    url("../../fonts/NexaBold.woff") format("woff"),
+    url("../../fonts/NexaBold.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}

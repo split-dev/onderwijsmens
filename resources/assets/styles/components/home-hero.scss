@@ -1,0 +1,110 @@
+.home-hero-bg {
+  background: url("images/home-bg.png") no-repeat top right;
+  background-size: 100%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 115%;
+    height: 430px;
+    bottom: -35px;
+    left: -30px;
+    z-index: -1;
+    background-color: #fff;
+    transform: skew(172deg, 176.67deg);
+  }
+}
+.home-hero {
+  padding-bottom: 67px;
+  position: relative;
+  &__heading {
+    max-width: 783px;
+    width: 100%;
+    margin-bottom: 119px;
+    h2 {
+      padding-top: 97px;
+      padding-bottom: 48px;
+      span {
+        font-family: $light-font;
+      }
+    }
+    a {
+      //@extend .primary-btn;
+      background: $violet-accent;
+    }
+  }
+  &__services {
+    display: flex;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 0 5px;
+  }
+  &__table {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+    padding: 31px 27px 25px 30px;
+    p {
+      @include body-typo;
+      padding-left: 20px;
+      padding-right: 7px;
+      margin-bottom: 30px;
+      line-height: 1.52;
+    }
+    a {
+      @extend .primary-btn;
+      width: 100%;
+      margin-bottom: 5px;
+      div {
+        justify-content: flex-start;
+        padding-left: 21px;
+      }
+    }
+  }
+  &__table:nth-of-type(1) {
+    margin-right: 30px;
+    h5 {
+      color: $purple-accent;
+      &:before {
+        content: url("images/icons/logo-small.svg");
+      }
+    }
+    a {
+      background: $pink-accent;
+    }
+  }
+  &__table:nth-of-type(2) {
+    h5 {
+      color: $green-accent;
+      &:before {
+        content: url("images/icons/romb-32.svg");
+      }
+    }
+    a {
+      background: $green-accent;
+    }
+  }
+  &__table-heading {
+    padding-left: 16px;
+    h5 {
+      display: inline-flex;
+      align-items: center;
+      position: relative;
+      margin-bottom: 26px;
+      &:before {
+        display: inline;
+        //position: absolute;
+        margin-right: 20px;
+        //left: 0;
+        //top: 0;
+      }
+      span {
+        font-family: $light-font;
+      }
+    }
+  }
+}

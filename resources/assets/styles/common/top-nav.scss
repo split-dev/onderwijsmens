@@ -1,9 +1,9 @@
 .top-nav {
-  height: 124px;
+  height: 117px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background: green;
+  background: transparent;
   &__logo {
     @media (max-width: 991px) {
       position: absolute;
@@ -17,18 +17,6 @@
       display: flex;
       align-items: center;
       height: 100%;
-      span:nth-child(2) {
-        //font-family: $heading-font;
-        //font-size: 1rem; /* 16px */
-        //color: $heading-colour-main;
-        //@media (max-width: 767px) {
-        //  font-size: 0.85rem;
-        //}
-      }
-      &:hover {
-        color: black;
-        text-decoration: none;
-      }
     }
   }
   &__logo-img {
@@ -53,7 +41,8 @@
         list-style: none;
       }
       li a {
-        color: black;
+        color: #fff;
+        font-family: $nexa-bold;
         //line-height: 1.31;
         &:hover {
           color: black;

@@ -1,1 +1,50 @@
-{}
+{
+  "home-hero-table": [
+    {
+      "table-heading-light" : "Onderwijs",
+      "table-heading-bold" : "Mens",
+      "table-text" : "Wij geloven in autonomie. Autonome mensen zijn onafhankelijk. Onafhankelijkheid geeft je bewegingsruimte. Een vrij mens ziet kansen.",
+      "table-link" : [
+        {
+          "table-href" : "opleidingen-1.html",
+          "table-link-content" : "Opleidingen"
+        },
+        {
+          "table-href" : "scholen-1.html",
+          "table-link-content" : "Begeleiding scholen"
+        },
+        {
+          "table-href" : "scholen-2.html",
+          "table-link-content" : "Begeleiding besturen"
+        },
+        {
+          "table-href" : "#",
+          "table-link-content" : "Leer-netwerktrajecten"
+        }
+      ]
+    },
+    {
+      "table-heading-light" : "Onderwijs",
+      "table-heading-bold" : "Kwaliteit",
+      "table-text" : "Wij zien het in beeld brengen van onderwijskwaliteit als het navigeren vanuit een eigen koers. Wat gaat goed? Wat kan beter? Wat moet beter?",
+      "table-link" : [
+        {
+          "table-href" : "#",
+          "table-link-content" : "Online academie (PedIT)"
+        },
+        {
+          "table-href" : "#",
+          "table-link-content" : "OnderwijsKwaliteit.online"
+        },
+        {
+          "table-href" : "#",
+          "table-link-content" : "Kindportfolio.online"
+        },
+        {
+          "table-href" : "#",
+          "table-link-content" : "Lerarenkwaliteit.online"
+        }
+      ]
+    }
+  ]
+}

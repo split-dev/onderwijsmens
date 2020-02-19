@@ -1,0 +1,132 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// typography
+@mixin body-typo {
+  font-family: $light-font;
+  font-size: 1rem; /* 16 */
+  letter-spacing: 0.4px;
+  color: $text-color;
+}
+
+//@mixin subheading {
+//  font-size: 1.3125rem; /* 21px */
+//  color: $heading-colour-main;
+//}
+
+@mixin button-typo {
+  font-family: $bold-font;
+  font-size: 1.0625rem; /* 17px */
+  line-height: 1.31;
+  color: #fff;
+  letter-spacing: 0.85px;
+}
+@mixin link-hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: $extra-font;
+  font-size: 3.3125rem; /* 53 */
+  line-height: 1.18; /* если будет мешать, поштучно */
+  color: $text-color;
+  //@media (max-width: 767px) {
+  //  font-size: 24px;
+  //}
+}
+h2 {
+  font-family: $extra-font;
+  font-size: 3rem; /* 48 */
+  color: #fff;
+  //@media (max-width: 767px) {
+  //  font-size: 24px;
+  //}
+}
+h3 {
+  font-family: $extra-font;
+  font-size: 2.375rem; /* 38 */
+  color: $text-color;
+  line-height: 1.24;
+  //@media (max-width: 767px) {
+  //  font-size: 24px;
+  //}
+}
+h4 {
+  font-family: $extra-font;
+  font-size: 1.875rem; /* 30 */
+  line-height: 1.2;
+  color: $text-color;
+  //@media (max-width: 767px) {
+  //  font-size: 24px;
+  //}
+}
+h5 {
+  font-family: $extra-font;
+  font-size: 1.5rem; /* 24 */
+  //@media (max-width: 767px) {
+  //  font-size: 24px;
+  //}
+}
+h6 {
+  font-family: $extra-font;
+  font-size: 1.375rem; /* 22 */
+  color: $text-color;
+  //@media (max-width: 767px) {
+  //  font-size: 24px;
+  //}
+}
+
+///
+/// iOS Momentum scroll
+///
+@mixin ios-scroll () {
+  overflow-y: auto;
+  @supports (-webkit-overflow-scrolling: touch) {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+///
+/// Viewport sized typography with minimum and maximum values
+///
+/// @author Eduardo Boucas (@eduardoboucas)
+///
+/// @param {Number}   $responsive  - Viewport-based size
+/// @param {Number}   $min         - Minimum font size (px)
+/// @param {Number}   $max         - Maximum font size (px)
+///                                  (optional)
+/// @param {Number}   $fallback    - Fallback for viewport-
+///                                  based units (optional)
+///
+/// @example scss - 5vw font size (with 50px fallback),
+///                 minumum of 35px and maximum of 150px
+///  @include responsive-font(5vw, 35px, 150px, 50px);
+///
+@mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
+  $responsive-unitless: $responsive / ($responsive - $responsive + 1);
+  $dimension: if(unit($responsive) == "vh", "height", "width");
+  $min-breakpoint: $min / $responsive-unitless * 100;
+
+  @media (max-#{$dimension}: #{$min-breakpoint}) {
+    font-size: $min;
+  }
+
+  @if $max {
+    $max-breakpoint: $max / $responsive-unitless * 100;
+
+    @media (min-#{$dimension}: #{$max-breakpoint}) {
+      font-size: $max;
+    }
+  }
+
+  @if $fallback {
+    font-size: $fallback;
+  }
+
+  font-size: $responsive;
+}
