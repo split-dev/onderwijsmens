@@ -1,32 +1,32 @@
-<div class="home-hero-bg">
-  <div class="custom-container">
-    <div class="home-hero">
-      {{> ../common/top-nav }}
-      <div class="home-hero__heading">
-        <h2>OnderwijsMens biedt perspectief <span>om krachtige onderwijsverhalen <br>te creëren!</span></h2>
-          <a href="contact-page.html" class="primary-btn">
-            <div>
-              <span>Contact</span>
-            </div>
-          </a>
-      </div>
-      <div class="home-hero__services">
-        {{#each home-hero-table}}
+<div class="home-hero-bg"></div>
+<div class="custom-container">
+  <div class="home-hero">
+    {{> ../common/top-nav }}
+    <div class="home-hero__heading">
+      <h2>OnderwijsMens biedt perspectief <span>om krachtige onderwijsverhalen <br>te creëren!</span></h2>
+      <a href="contact-page.html" class="primary-btn">
+        <div>
+          <span>Contact</span>
+        </div>
+      </a>
+    </div>
+    <div class="home-hero__services">
+      {{#each home-hero-table}}
         <div class="home-hero__table">
           <div class="home-hero__table-heading">
             <h5><span>{{table-heading-light}}</span>{{table-heading-bold}}</h5>
           </div>
           <p>{{table-text}}</p>
           {{#each table-link}}
-          <a href="{{table-href}}" class="primary-btn">
-            <div class="button-content">
-              <span>{{table-link-content}}</span>
-            </div>
-          </a>
+            <a href="{{table-href}}" class="primary-btn">
+              <div class="button-content">
+                <span>{{table-link-content}}</span>
+              </div>
+            </a>
           {{/each}}
         </div>
-        {{/each}}
-      </div>
+      {{/each}}
     </div>
   </div>
 </div>
+
