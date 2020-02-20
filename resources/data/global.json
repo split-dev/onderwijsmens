@@ -2,5 +2,54 @@
   "top-nav-logo" : "images/icons/logo.svg",
   "facebook" : "images/icons/facebook.svg",
   "insta" : "images/icons/insta.svg",
-  "twitter" : "images/icons/twitter.svg"
+  "twitter" : "images/icons/twitter.svg",
+
+  "footer-menu-block" : [
+    {
+      "footer-img" : "images/icons/logo-small.svg",
+      "footer-menu-heading" : "OnderwijsMens",
+
+      "footer-menu-link1" : "over-ons.hbs",
+      "footer-menu-link2" : "opleidingen-1.hbs",
+      "footer-menu-link3" : "scholen-1.hbs",
+      "footer-menu-link4" : "scholen-2.hbs",
+      "footer-menu-link5" : "downloads.hbs",
+
+      "footer-menu-link1-text" : "Over OnderwijsMens",
+      "footer-menu-link2-text" : "Opleidingen",
+      "footer-menu-link3-text" : "Scholen",
+      "footer-menu-link4-text" : "Bestuur",
+      "footer-menu-link5-text" : "Downloads"
+    },
+    {
+      "footer-img" : "images/icons/romb.svg",
+      "footer-menu-heading" : "OnderwijsKwaliteit",
+
+      "footer-menu-link1" : "#",
+      "footer-menu-link2" : "#",
+      "footer-menu-link3" : "#",
+      "footer-menu-link4" : "#",
+
+      "footer-menu-link1-text" : "Academie OnderwijsKwaliteit",
+      "footer-menu-link2-text" : "OnderwijsKwaliteit.online",
+      "footer-menu-link3-text" : "Kindportfolio.online",
+      "footer-menu-link4-text" : "Lerarenkwaliteit.online"
+    },
+    {
+      "footer-img" : "#",
+      "footer-menu-heading" : "Contact",
+
+      "footer-menu-link1" : "#",
+      "footer-menu-link2" : "#",
+      "footer-menu-link3" : "tel:06 469 963 07",
+      "footer-menu-link4" : "mailto:info@onderwijsmens.nl",
+      "footer-menu-link5" : "mailto:info@onderwijskwaliteit.online",
+
+      "footer-menu-link1-text" : "Hank 50,",
+      "footer-menu-link2-text" : "5446 XG Wanroij",
+      "footer-menu-link3-text" : "06 469 963 07",
+      "footer-menu-link4-text" : "info@onderwijsmens.nl",
+      "footer-menu-link5-text" : "info@onderwijskwaliteit.online"
+    }
+  ]
 }

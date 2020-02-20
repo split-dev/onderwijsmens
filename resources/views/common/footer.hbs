@@ -3,18 +3,38 @@
 
     <div class="footer__top">
       <div class="footer__menu">
+        {{#each footer-menu-block}}
         <div class="footer__menu-block">
-          <img src="" alt="">
-          <span><a href="#"></a></span>
-          <span><a href="#"></a></span>
-          <span><a href="#"></a></span>
-          <span><a href="#"></a></span>
-          <span><a href="#"></a></span>
-          <span><a href="#"></a></span>
+          <img src="{{footer-img}}" alt="footer-img">
+          <span>{{footer-menu-heading}}</span>
+          <span><a href="{{footer-menu-link1}}"></a>{{footer-menu-link1-text}}</span>
+          <span><a href="{{footer-menu-link2}}"></a>{{footer-menu-link2-text}}</span>
+          <span><a href="{{footer-menu-link3}}"></a>{{footer-menu-link3-text}}</span>
+          <span><a href="{{footer-menu-link4}}"></a>{{footer-menu-link4-text}}</span>
+          <span><a href="{{footer-menu-link5}}"></a>{{footer-menu-link5-text}}</span>
+        </div>
+        {{/each}}
+      </div>
+      <div class="footer__links">
+        <div class="footer__social">
+          <a href="#"><img src="{{facebook}}" alt="facebook"></a>
+          <a href="#"><img src="{{insta}}" alt="insta"></a>
+          <a href="#"><img src="{{twitter}}" alt="twitter"></a>
+        </div>
+        <div class="footer__green-links">
+          <a href="#">Academie OnderwijsKwaliteit</a>
+          <a href="#">Onderwijsportfolio</a>
+          <a href="#">Kindportfolio</a>
         </div>
       </div>
-      <div class="footer__links"></div>
     </div>
-    <div class="footer__bottom"></div>
+    <div class="footer__bottom">
+      <span>Copyright © 2020 OnderwijsMens. All rights reserved.</span>
+      <div class="footer__bottom-right">
+        <a href="#">Algemene voorwaarden</a>
+        <a href="#">Klachtenregeling</a>
+        <a href="#">Privacyverklaring</a>
+      </div>
+    </div>
   </div>
 </div>

@@ -1,0 +1,113 @@
+.footer {
+  a {
+    text-decoration: none;
+    &:hover {
+      @include link-hover;
+    }
+  }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 39px;
+    border-bottom: 1px solid #575756;
+  }
+  &__menu {
+    display: flex;
+    max-width: 806px;
+    width: 100%;
+  }
+  &__menu-block {
+    padding-right: 39px;
+    img {
+      margin-bottom: 23px;
+    }
+    span:nth-of-type(1) {
+      font-family: $nexa-bold;
+      font-size: 1.0625rem; /* 17px */
+      letter-spacing: 0.85px;
+      color: $purple-accent;
+      margin-bottom: 10px;
+    }
+    span {
+      display: block;
+      @include body-typo;
+      line-height: 1.31;
+      margin-bottom: 7px;
+    }
+  }
+  &__menu-block:nth-of-type(1) {
+    width: 31.14%;
+  }
+  &__menu-block:nth-of-type(2) {
+    width: 34.36%;
+  }
+  &__menu-block:nth-of-type(3) {
+    img {
+      display: none;
+    }
+    span:nth-of-type(1) {
+      margin-top: 72px;
+    }
+  }
+  &__links {
+    max-width: 300px;
+    width: 100%;
+  }
+  &__social {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 48px;
+    margin-top: 17px;
+    a:nth-of-type(2) {
+      margin: 0 16px;
+    }
+    a {
+      @include flex-center;
+      width: 36px;
+      height: 36px;
+      background-color: $violet-accent;
+      border-radius: 3px;
+    }
+  }
+  &__green-links {
+    a {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0 7px 37px 0;
+      color: $green-accent;
+      font-family: $nexa-bold;
+      font-size: 1rem;
+      letter-spacing: 0.8px;
+      line-height: 1.18;
+      &:after {
+        content: url("images/icons/arrow-green.svg");
+        display: inline;
+        width: 21px;
+        height: 19px;
+        transition: 0.3s;
+      }
+    }
+    a:last-of-type {
+      padding-bottom: 0;
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    span,
+    a {
+      color: #878787;
+      font-family: $reg-font;
+      font-size: 0.75rem;
+      letter-spacing: 1.2px;
+    }
+  }
+  &__bottom-right {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
