@@ -9,11 +9,11 @@
       "footer-img" : "images/icons/logo-small.svg",
       "footer-menu-heading" : "OnderwijsMens",
 
-      "footer-menu-link1" : "over-ons.hbs",
-      "footer-menu-link2" : "opleidingen-1.hbs",
-      "footer-menu-link3" : "scholen-1.hbs",
-      "footer-menu-link4" : "scholen-2.hbs",
-      "footer-menu-link5" : "downloads.hbs",
+      "footer-menu-link1" : "over-ons.html",
+      "footer-menu-link2" : "opleidingen-1.html",
+      "footer-menu-link3" : "scholen-1.html",
+      "footer-menu-link4" : "scholen-2.html",
+      "footer-menu-link5" : "downloads.html",
 
       "footer-menu-link1-text" : "Over OnderwijsMens",
       "footer-menu-link2-text" : "Opleidingen",

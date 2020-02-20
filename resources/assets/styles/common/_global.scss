@@ -2,4 +2,19 @@
   max-width: 1230px;
   padding: 0 15px;
   margin: auto;
+  @media (max-width: 1499px) {
+    max-width: 1165px;
+  }
+  @media (max-width: 1199px) {
+    max-width: 960px;
+  }
+  @media (max-width: 991px) {
+    max-width: 720px;
+  }
+  @media (max-width: 767px) {
+    max-width: 540px;
+  }
+  @media (max-width: 575px) {
+    max-width: 100%;
+  }
 }

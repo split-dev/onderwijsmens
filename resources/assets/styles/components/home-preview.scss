@@ -1,0 +1,124 @@
+.home-wrap-bg {
+  position: relative;
+}
+.home-preview-bg {
+  background: url("images/preview-bg.png") no-repeat top left;
+  background-size: cover;
+  z-index: -1;
+  overflow: hidden;
+  height: 543px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  @media (min-width: 1921px) {
+    height: 725px;
+  }
+}
+.home-preview {
+  display: flex;
+  justify-content: center;
+  padding-top: 192px;
+  padding-bottom: 73px;
+  @media (max-width: 991px) {
+    flex-wrap: wrap;
+  }
+  &__opl {
+    max-width: 675px;
+    width: 100%;
+    background-color: rgba(66, 6, 74, 0.9);
+    padding: 41px 52px 44px;
+    position: relative;
+    margin-right: 28px;
+    @media (max-width: 991px) {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 767px) {
+      padding: 41px 23px 44px;
+    }
+    &:before {
+      content: url("images/icons/flag-hat.svg");
+      position: absolute;
+      right: 7.1111%;
+      top: -10px;
+      width: 49px;
+      height: 90px;
+    }
+    span:nth-of-type(2) {
+      width: 83%;
+      @media (max-width: 991px) {
+        width: 100%;
+      }
+    }
+    a {
+      margin-top: 42px;
+      background-color: $lightblue-accent;
+    }
+  }
+  &__support {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 361px;
+    width: 100%;
+    padding: 41px 52px 43px;
+    background-color: rgba(0, 154, 62, 0.9);
+    align-items: center;
+    > span {
+      text-align: center;
+    }
+    img {
+      margin-top: 17px;
+      margin-bottom: 30px;
+      opacity: 0.7;
+    }
+    a {
+      width: 204px;
+      background-color: #fff;
+      span {
+        color: $green-accent;
+      }
+      &:after {
+        content: url("images/icons/arrow-green.svg");
+      }
+    }
+  }
+  &__opl,
+  &__support {
+    border-radius: 5px;
+    > span {
+      display: block;
+    }
+    > span:nth-of-type(1) {
+      color: #fff;
+      font-family: $extra-font;
+      font-size: 2.6875rem;
+      line-height: 1.19;
+      @media (max-width: 767px) {
+        font-size: 38px;
+      }
+      @media (max-width: 575px) {
+        font-size: 32px;
+      }
+    }
+    span:nth-of-type(2) {
+      color: #fff;
+      font-family: $light-font;
+      font-size: 2.25rem;
+      line-height: 1.25;
+      @media (max-width: 767px) {
+        font-size: 38px;
+      }
+      @media (max-width: 575px) {
+        font-size: 26px;
+      }
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
