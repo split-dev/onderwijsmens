@@ -1,1 +1,16 @@
-{}
+{
+  "ticks" : [
+    {
+      "ticks-heading" : "Opbrengst bestuurders",
+      "ticks-text1" : "Herkenbaar kwaliteitsbeleid in het bestuur en in de school",
+      "ticks-text2" : "Systematische aanpak met een kwaliteitscyclus in een bestuursjaar, in lijn met het strategisch beleid",
+      "ticks-text3" : "Beleid op kwaliteit: met beredeneerde monitoring"
+    },
+    {
+      "ticks-heading" : "Opbrengst schoolleiders",
+      "ticks-text1" : "Bewegingsruimte binnen kaders: je weet waar je aan toe bent",
+      "ticks-text2" : "Planmatige ondersteuning: sturing op maat",
+      "ticks-text3" : "Transparante monitoring: geen verborgen agenda's"
+    }
+  ]
+}

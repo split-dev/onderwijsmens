@@ -1,0 +1,35 @@
+.ticks-bg {
+  background-color: #f0f3f6;
+}
+.ticks {
+  display: flex;
+  padding: 91px 0 76px;
+  &__block {
+    width: 47.9%;
+    h4 {
+      color: $green-accent;
+      margin-bottom: 37px;
+      line-height: 1.25;
+    }
+    span {
+      display: block;
+      @include body-typo;
+      line-height: 1.31;
+      position: relative;
+      padding-left: 29px;
+      &:before {
+        content: url("images/icons/tick.svg");
+        position: absolute;
+        margin-right: 9px;
+        top: 0;
+        left: 0;
+      }
+    }
+    span:not(:last-of-type) {
+      margin-bottom: 19px;
+    }
+  }
+  &__block:nth-of-type(1) {
+    margin-right: 50px;
+  }
+}

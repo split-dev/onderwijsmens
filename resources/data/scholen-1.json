@@ -1,1 +1,17 @@
-{}
+{
+  "ticks" : [
+    {
+      "ticks-heading" : "Opbrengst schoolleiders",
+      "ticks-text1" : "Nieuwe inzichten die morgen werken in jouw groepen",
+      "ticks-text2" : "Weg met de professionele eenzaamheid in jouw team",
+      "ticks-text3" : "Jouw team werkt vanuit urgentiebesef aan kwaliteit"
+    },
+
+    {
+      "ticks-heading" : "Opbrengst leraren",
+      "ticks-text1" : "De leraar is de baas over de methode",
+      "ticks-text2" : "De leraar is regisseur van het onderwijs",
+      "ticks-text3" : "Leraren hebben hoge verwachtingen van de leerlingen"
+    }
+  ]
+}
