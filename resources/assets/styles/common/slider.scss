@@ -51,6 +51,7 @@
   &__slider-init {
     max-width: 815px;
     width: 100%;
+    position: relative;
   }
   &__slider-content {
     max-width: 815px;
@@ -89,10 +90,24 @@
     }
   }
 }
-
+.slick-dots {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  width: 112px;
+  margin-right: 57px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.slick-arrow {
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
 .feedback__miniature {
-  max-width: 361px;
-  width: 100%;
+  width: 361px;
   position: relative;
   height: 370px;
   display: flex;
