@@ -1,0 +1,21 @@
+.index {
+  .feedback {
+    padding-top: 331px;
+    padding-bottom: 59px;
+    &__header {
+      h3 {
+        line-height: 1.24;
+        strong {
+          position: relative;
+        }
+        strong:after {
+          position: absolute;
+          content: url("images/icons/underline-pink.svg");
+          bottom: -12px;
+          left: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

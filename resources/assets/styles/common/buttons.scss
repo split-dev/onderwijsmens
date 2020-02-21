@@ -3,22 +3,18 @@
   display: inline-block;
   height: 49px;
   transition: 0.3s;
-  padding: 13px 45px 10px 0;
+  padding: 13px 45px 13px 0;
   border-radius: 3px;
   position: relative;
-  div {
-    @include flex-center;
-    position: relative;
-    span {
-      @include button-typo;
-    }
-  }
+  @include flex-center;
+  @include button-typo;
   &:after {
     content: url("images/icons/arrow.svg");
     display: inline;
     position: absolute;
     right: 25px;
-    top: 30%;
+    top: 50%;
+    transform: translateY(-50%);
     width: 20px;
     height: 16px;
     transition: 0.3s;
@@ -36,19 +32,15 @@
   border-radius: 3px;
   border: 1px solid $green-accent;
   background-color: #fff;
-  div {
-    @include flex-center;
-    span {
-      @include button-typo;
-    }
-    &:after {
-      content: url("images/icons/arrow-green.svg");
-      display: inline;
-      width: 21px;
-      height: 16px;
-      //margin-right: 13px;
-      transition: 0.3s;
-    }
+  @include flex-center;
+  @include button-typo;
+  &:after {
+    content: url("images/icons/arrow-green.svg");
+    display: inline;
+    width: 21px;
+    height: 16px;
+    //margin-right: 13px;
+    transition: 0.3s;
   }
   &:hover {
     @include link-hover;

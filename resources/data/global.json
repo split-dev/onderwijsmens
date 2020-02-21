@@ -4,6 +4,8 @@
   "insta" : "images/icons/insta.svg",
   "twitter" : "images/icons/twitter.svg",
 
+  "left-quote" : "images/icons/left-qoute.svg",
+  "right-quote" : "images/icons/right-qoute.svg",
   "footer-menu-block" : [
     {
       "footer-img" : "images/icons/logo-small.svg",

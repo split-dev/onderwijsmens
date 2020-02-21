@@ -71,6 +71,7 @@
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7",
     "select2": "^4.0.10",
+    "slick": "^1.12.2",
     "slick-carousel": "^1.8.1",
     "vanilla-lazyload": "^11.0.6",
     "yarn": "^1.17.3"

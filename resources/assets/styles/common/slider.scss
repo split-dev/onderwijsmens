@@ -1,0 +1,118 @@
+.feedback-bg-wrap {
+  position: relative;
+}
+.feedback-bg {
+  background: rgb(236, 240, 244);
+  //background-size: cover;
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 756px;
+  height: 100%;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 115%;
+    height: 200px;
+    bottom: -106px;
+    left: -30px;
+    z-index: -1;
+    background-color: #fff;
+    transform: rotate(175deg);
+    @media (min-width: 1921px) {
+      height: 350px;
+      bottom: -221px;
+    }
+  }
+}
+.feedback {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    a {
+      color: $green-accent;
+    }
+  }
+  &__body {
+    display: flex;
+  }
+  //&__slider {
+  //  max-width: 815px;
+  //  width: 100%;
+  //}
+  &__slider-init {
+    max-width: 815px;
+    width: 100%;
+  }
+  &__slider-content {
+    max-width: 815px;
+    width: 100%;
+    padding: 57px 53px 18px;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+  }
+  &__slider-text {
+    img,
+    span {
+      display: block;
+    }
+    img:nth-of-type(1) {
+      margin-bottom: 19px;
+    }
+    img:nth-of-type(2) {
+      display: block;
+      margin-left: auto;
+      margin-bottom: 30px;
+    }
+    span {
+      font-family: $bold-font;
+      font-size: 21px;
+      color: $violet-accent;
+      line-height: 1.33333;
+      padding-right: 28px;
+      margin-bottom: 23px;
+    }
+  }
+  &__slider-bottom {
+    a {
+      background-color: $green-accent;
+      max-width: 204px;
+    }
+  }
+}
+
+.feedback__miniature {
+  max-width: 361px;
+  width: 100%;
+  position: relative;
+  height: 370px;
+  > a {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .miniature__bg {
+    background: url("images/slider/slider-photo.png");
+    height: 370px;
+    width: 361px;
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .miniature__content {
+    padding: 30px 27px 26px 44px;
+    background-color: rgba(66, 6, 74, 0.9);
+    h3 {
+      line-height: 1.2;
+      margin-bottom: 25px;
+    }
+    a {
+      background-color: $pink-accent;
+    }
+  }
+}

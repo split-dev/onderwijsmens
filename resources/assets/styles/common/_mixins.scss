@@ -18,7 +18,7 @@
 //}
 
 @mixin button-typo {
-  font-family: $bold-font;
+  font-family: $nexa-bold;
   font-size: 1.0625rem; /* 17px */
   line-height: 1.31;
   color: #fff;
@@ -59,9 +59,9 @@ h4 {
   font-family: $extra-font;
   font-size: 1.875rem; /* 30 */
   line-height: 1.2;
-  //@media (max-width: 767px) {
-  //  font-size: 24px;
-  //}
+  @media (max-width: 767px) {
+    font-size: 24px;
+  }
 }
 h5 {
   font-family: $extra-font;

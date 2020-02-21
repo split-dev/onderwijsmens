@@ -47,5 +47,9 @@
       ]
     }
   ],
-  "preview-img" : "images/icons/download.svg"
+  "preview-img" : "images/icons/download.svg",
+
+  "feedback-heading1" : "Altijd",
+  "feedback-heading-underline" : "actuele",
+  "feedback-heading2" : "informatie"
 }
