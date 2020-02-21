@@ -38,6 +38,11 @@
   }
   &__body {
     display: flex;
+    justify-content: space-between;
+    @media (max-width: 991px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
   //&__slider {
   //  max-width: 815px;
@@ -90,9 +95,21 @@
   width: 100%;
   position: relative;
   height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 5px;
+  position: relative;
+  &:after {
+    content: url("images/icons/flag.svg");
+    position: absolute;
+    right: 9%;
+    top: -15px;
+    width: 49px;
+    height: 90px;
+  }
   > a {
-    display: flex;
-    justify-content: flex-end;
+    height: 100%;
   }
   .miniature__bg {
     background: url("images/slider/slider-photo.png");
@@ -105,14 +122,37 @@
     left: 0;
   }
   .miniature__content {
-    padding: 30px 27px 26px 44px;
+    padding: 10px 26px 26px 37px;
     background-color: rgba(66, 6, 74, 0.9);
-    h3 {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      height: 20px;
+      top: -20px;
+      left: 0;
+      right: 15.8%; /* 69px; */
+      border-bottom: 20px solid rgba(66, 6, 74, 0.9);;
+      border-right: 14px solid transparent;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      height: 20px;
+      top: -20px;
+      left: 83.9%;
+      right: 0;
+      border-bottom: 20px solid rgba(66, 6, 74, 0.9);
+      border-left: 16px solid transparent;
+    }
+    h4 {
       line-height: 1.2;
       margin-bottom: 25px;
+      color: #fff;
     }
     a {
       background-color: $pink-accent;
+      max-width: 204px;
     }
   }
 }
