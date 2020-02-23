@@ -40,6 +40,7 @@
   &__body {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     @media (max-width: 991px) {
       flex-wrap: wrap;
       justify-content: center;
@@ -115,7 +116,7 @@
 
 .slick-arrow {
   @media (min-width: 992px) {
-    display: none;
+    display: none !important;
   }
 }
 .feedback__miniature {
