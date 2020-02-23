@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   padding-top: 192px;
-  padding-bottom: 73px;
+  padding-bottom: 88px; /* было 73пк */
   @media (max-width: 991px) {
     flex-wrap: wrap;
   }
