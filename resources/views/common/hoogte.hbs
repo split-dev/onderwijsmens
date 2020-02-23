@@ -1,4 +1,7 @@
-<div class="hoogte-bg">
+<div class="hoogte-bg-wrap">
+  <div class="hoogte-bg"></div>
+</div>
+<div class="hoogte-wrap">
   <div class="custom-container">
     <div class="hoogte">
       <div class="hoogte__heading">
@@ -6,13 +9,13 @@
       </div>
       <div class="hoogte__body">
         {{#each hoogte-miniature}}
-        <div class="hoogte__miniature">
-          <a href="{{hoogte-miniature-href}}" class="miniature__bg"></a>
-          <div class="miniature__content">
-           <span>{{hoogte-miniature-date}}</span>
-           <a href="{{hoogte-miniature-href}}">{{hoogte-miniature-text}}</a>
+          <div class="hoogte__miniature">
+            <a href="{{hoogte-miniature-href}}" class="miniature__bg"></a>
+            <div class="miniature__content">
+              <span>{{hoogte-miniature-date}}</span>
+              <a href="{{hoogte-miniature-href}}">{{hoogte-miniature-text}}</a>
+            </div>
           </div>
-        </div>
         {{/each}}
       </div>
       <div class="hoogte__button">
@@ -21,6 +24,7 @@
     </div>
   </div>
 </div>
+
 
 
 
