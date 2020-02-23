@@ -6,6 +6,10 @@
 
   "left-quote" : "images/icons/left-qoute.svg",
   "right-quote" : "images/icons/right-qoute.svg",
+  "slider-photo-1" : "images/slider/slider-1.png",
+  "slider-photo-2" : "images/slider/slider-2.png",
+  "slider-photo-3": "images/slider/slider-3.png",
+
   "footer-menu-block" : [
     {
       "footer-img" : "images/icons/logo-small.svg",

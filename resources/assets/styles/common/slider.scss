@@ -29,6 +29,7 @@
   }
 }
 .feedback {
+  padding-bottom: 29px;
   &__header {
     display: flex;
     justify-content: space-between;
@@ -52,6 +53,7 @@
     max-width: 815px;
     width: 100%;
     position: relative;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.04);
   }
   &__slider-content {
     max-width: 815px;
@@ -67,7 +69,7 @@
       display: block;
     }
     img:nth-of-type(1) {
-      margin-bottom: 19px;
+      margin-bottom: 15px;
     }
     img:nth-of-type(2) {
       display: block;
@@ -78,12 +80,16 @@
       font-family: $bold-font;
       font-size: 21px;
       color: $violet-accent;
-      line-height: 1.33333;
+      line-height: 1.52;
       padding-right: 28px;
-      margin-bottom: 23px;
+      margin-bottom: 19px;
     }
   }
   &__slider-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 66px;
     a {
       background-color: $green-accent;
       max-width: 204px;
@@ -92,15 +98,21 @@
 }
 .slick-dots {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 58px;
+  bottom: 33px;
   display: flex;
-  width: 112px;
-  margin-right: 57px;
+  width: 48px;
   padding: 0;
   list-style: none;
   text-align: center;
 }
+.slick-dots li {
+  margin: 0;
+}
+.slick-dots li button:before {
+  content: url("images/icons/bullet.svg");
+}
+
 .slick-arrow {
   @media (min-width: 992px) {
     display: none;
@@ -114,6 +126,7 @@
   flex-direction: column;
   justify-content: flex-end;
   border-radius: 5px;
+  margin-bottom: 30px;
   &:after {
     content: url("images/icons/flag.svg");
     position: absolute;
@@ -139,6 +152,8 @@
     padding: 10px 26px 26px 37px;
     background-color: rgba(66, 6, 74, 0.9);
     position: relative;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     &:before {
       content: "";
       position: absolute;
