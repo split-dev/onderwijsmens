@@ -1,1 +1,31 @@
-{}
+{
+  "download-heading": "Opleidingen",
+  "download-heading-underline": "overzicht",
+  "download-item": [
+    {
+      "download-href-main": "#",
+      "download-text-main": "Opleiding Rekenexpert 2020-2021",
+      "download-href-button": "#",
+      "download-text-button": "Lees meer"
+    },
+    {
+      "download-href-main": "opleidingen-2.html",
+      "download-text-main": "Opleiding Taal-leesexpert 2020-2021",
+      "download-href-button": "opleidingen-2.html",
+      "download-text-button": "Lees meer"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Opleiding Intern begeleider Next step 2020-2021",
+      "download-href-button": "#",
+      "download-text-button": "Lees meer"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Opleiding Expert Onderwijskwaliteit 2020-2021",
+      "download-href-button": "#",
+      "download-text-button": "Lees meer"
+    }
+  ]
+}
+
