@@ -13,6 +13,10 @@
         bottom: -12px;
         left: 0;
         width: 100%;
+        @media (max-width: 767px) {
+          content: url("images/icons/underline-pink-mobile87.svg");
+          bottom: -9px;
+        }
       }
     }
   }

@@ -66,12 +66,17 @@
       @media (max-width: 1199px) {
         justify-content: center;
         text-align: center;
+        flex-wrap: nowrap;
       }
       h3 {
         line-height: 1.24;
         color: $text-color;
+        //@media (max-width: 991px) {
+        //  text-align: left;
+        //}
         strong {
           position: relative;
+          display: inline;
         }
         strong:after {
           position: absolute;
@@ -79,6 +84,10 @@
           bottom: -12px;
           left: 0;
           width: 100%;
+          @media (max-width: 767px) {
+            content: url("images/icons/underline-pink-mobile.svg");
+            bottom: -8px;
+          }
         }
       }
       a {
