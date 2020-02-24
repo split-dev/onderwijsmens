@@ -1,1 +1,7 @@
-{}
+{
+  "partners__item1" : "images/partners/serve.png",
+  "partners__item2" : "images/partners/bol.png",
+  "partners__item3" : "images/partners/studio.png",
+  "partners__item4" : "images/partners/simplicate.png",
+  "partners__item5" : "images/partners/phact.png"
+}

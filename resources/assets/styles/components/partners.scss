@@ -1,0 +1,48 @@
+.partners {
+  padding-bottom: 84px;
+  &__heading {
+    h3 {
+      margin-bottom: 54px;
+      line-height: 1.24;
+      text-align: center;
+      strong {
+        position: relative;
+        &:after {
+          position: absolute;
+          content: "";
+          background: url("images/icons/underline-pink.svg") no-repeat;
+          background-size: 100%;
+          right: 0;
+          bottom: -1px;
+          left: 0;
+          width: 100%;
+          height: 4px;
+          @media (max-width: 767px) {
+            bottom: -3px;
+          }
+        }
+      }
+    }
+  }
+  &__all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: $shadow-2;
+    width: 100%;
+  }
+  .slick-list {
+    width: 90.5% !important;
+  }
+  .slick-track {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 174px;
+  }
+}
+
