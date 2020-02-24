@@ -13,8 +13,8 @@
     display: inline;
     position: absolute;
     right: 25px;
-    top: 50%;
-    transform: translateY(-50%);
+    //top: 50%;
+    //transform: translateY(-50%);
     width: 20px;
     height: 16px;
     transition: 0.3s;
@@ -28,7 +28,7 @@
   min-width: 164px;
   height: 49px;
   transition: 0.3s;
-  padding: 14px 39px 12px 0;
+  padding: 13px 39px 13px 0;
   border-radius: 3px;
   border: 1px solid $green-accent;
   background-color: #fff;
@@ -46,8 +46,8 @@
     height: 16px;
     position: absolute;
     right: 18px;
-    top: 50%;
-    transform: translateY(-50%);
+    //top: 50%;
+    //transform: translateY(-50%);
     transition: 0.3s;
   }
   &:hover {

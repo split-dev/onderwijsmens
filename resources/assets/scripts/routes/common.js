@@ -11,6 +11,7 @@ export default {
       // arrows: true,
       dots: true,
       arrows: false,
+      fade: true,
     });
   },
 
