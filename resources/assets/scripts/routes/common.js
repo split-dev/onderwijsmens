@@ -10,6 +10,7 @@ export default {
       slidesToScroll: 1,
       // arrows: true,
       dots: true,
+      arrows: false,
     });
   },
 

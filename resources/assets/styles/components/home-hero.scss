@@ -15,12 +15,12 @@
     content: "";
     position: absolute;
     width: 115%;
-    height: 200px;
+    height: 232px;
     bottom: -106px;
     left: -30px;
     z-index: -1;
     background-color: #fff;
-    transform: rotate(175deg);
+    transform: rotate(175.6deg);
     @media (min-width: 1921px) {
       height: 350px;
       bottom: -221px;
@@ -33,20 +33,10 @@
   &__heading {
     max-width: 783px;
     width: 100%;
-    margin-bottom: 119px;
+    margin-bottom: 114px;
     h2 {
-      padding-top: 97px;
-      padding-bottom: 48px;
-      //@media (min-width: 768px) and (max-width: 991px) {
-      //  padding-top: 0;
-      //  padding-bottom: 148px;
-      //}
-      @media (max-width: 767px) {
-        font-size: 38px;
-      }
-      @media (max-width: 575px) {
-        font-size: 32px;
-      }
+      padding-top: 84px;
+      padding-bottom: 34px;
       span {
         font-family: $light-font;
       }
@@ -125,6 +115,7 @@
     h5 {
       color: $purple-accent;
       height: 59px;
+      letter-spacing: 0.4px;
       &:before {
         content: url("images/icons/logo-small.svg");
       }
@@ -136,6 +127,7 @@
   &__table:nth-of-type(2) {
     h5 {
       color: $green-accent;
+      letter-spacing: 2.2px;
       &:before {
         content: url("images/icons/romb-32.svg");
       }

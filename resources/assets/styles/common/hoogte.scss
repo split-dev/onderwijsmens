@@ -28,7 +28,6 @@
     }
   }
   &__miniature {
-    //width: 328px;
     position: relative;
     min-height: 346px;
     height: 100%;
@@ -38,7 +37,6 @@
     border-radius: 5px;
     margin-bottom: 30px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
-    //margin-right: 40px;
     max-width: 328px;
     width: 100%;
     .miniature__bg {
@@ -50,6 +48,8 @@
       position: absolute;
       top: 0;
       left: 0;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
       @media (max-width: 374px) {
         background-size: 100% !important;
         background-repeat: no-repeat !important;

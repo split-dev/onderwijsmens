@@ -164,15 +164,6 @@
 .slick-dots li button:before {
   content: url("images/icons/bullet.svg");
 }
-
-.slick-arrow {
-  @media (min-width: 1200px) {
-    display: none !important;
-  }
-  @media (max-width: 575px) {
-    display: none !important;
-  }
-}
 .feedback__miniature {
   width: 361px;
   position: relative;

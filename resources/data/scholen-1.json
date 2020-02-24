@@ -1,4 +1,35 @@
 {
+  "main-heading-1" : "OnderwijsMens biedt",
+  "main-heading-2" : "perspectief aan scholen",
+  "main-sub-1" : "Scholen",
+
+  "scholen-hex-heading" : "Het verbeteren van jouw school?",
+  "scholen-hex-ul" : [
+    {
+      "scholen-hex-li" : "Zoek je naar manieren om leraren én kinderen meer cyclisch, planmatig te laten werken?"
+    },
+    {
+      "scholen-hex-li" : "Heeft jouw team weinig vakdidactische kennis?"
+    },
+    {
+      "scholen-hex-li" : "Heb je zorgen over de kwaliteit van het onderwijs in jouw school?"
+    },
+    {
+      "scholen-hex-li" : "Ontbreekt er een doorgaande lijn taal en rekenen voor de leerlingen?"
+    },
+    {
+      "scholen-hex-li" : "Zoek je mogelijkheden om thematisch, onderzoekend en ontwerpend te werken in jouw school?"
+    },
+    {
+      "scholen-hex-li" : "Ben je te veel tijd kwijt met onzinnige sores en gedoe. zoals te veel 'papieren tijgers'?"
+    },
+    {
+      "scholen-hex-li" : "Geven jouw leraren vooral methodevolgend onderwijs?"
+    }
+  ],
+  "scholen-hex-photo" : "images/scholen1.png",
+
+
   "ticks" : [
     {
       "ticks-heading" : "Opbrengst schoolleiders",

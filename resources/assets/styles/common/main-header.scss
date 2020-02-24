@@ -1,0 +1,48 @@
+.main-header {
+  padding: 62px 0 186px;
+  max-width: 610px;
+  width: 100%;
+  @media (min-width: 992px) and (max-width: 1199px) {
+    width: 60%;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 83%;
+    padding: 62px 0 130px;
+  }
+  @media (max-width: 767px) {
+    padding: 36px 0 450px;
+  }
+  h1 {
+    color: #fff;
+    margin-bottom: 13px;
+    span {
+      font-family: $light-font;
+      display: block;
+      @media (max-width: 767px) {
+        display: inline;
+      }
+    }
+  }
+  &__subheading {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 14px;
+    }
+    span {
+      color: #fff;
+      font-family: $light-font;
+      font-size: 1rem;
+      letter-spacing: 0.4px;
+      padding: 0 14px;
+      position: relative;
+      &:before {
+        content: "|";
+        display: inline;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+}

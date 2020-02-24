@@ -1,0 +1,118 @@
+.scholen-hex-bg {
+  background: url("images/scholen1-bg.png") no-repeat top left;
+  background-size: cover;
+  z-index: -1;
+  overflow: hidden;
+  height: 696px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  //@media (min-width: 1921px) {
+  //  height: 1071px;
+  //}
+  &:after {
+    content: "";
+    position: absolute;
+    width: 115%;
+    height: 423px;
+    bottom: -106px;
+    left: -24px;
+    z-index: -1;
+    background-color: #fff;
+    transform: rotate(174.4deg);
+    @media (min-width: 1921px) {
+      bottom: -108px;
+    }
+  }
+}
+.scholen-hex {
+  position: relative;
+  padding-bottom: 93px;
+  &__heading {
+    @media (max-width: 991px) {
+      width: 45%;
+    }
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+
+    h3 {
+      color: $purple-accent;
+      margin-bottom: 31px;
+      line-height: 1.24;
+    }
+  }
+  &__list {
+    ul {
+      padding-left: 13px;
+    }
+    li {
+      max-width: 678px;
+      width: 100%;
+      line-height: 1.56;
+      margin-bottom: 15px;
+      font-family: $bold-font;
+      font-size: 1rem;
+      letter-spacing: 0.4px;
+      color: $text-color;
+      list-style: none;
+      position: relative;
+      @media (max-width: 991px) {
+        max-width: 536px;
+      }
+      &:after {
+        content: "•";
+        position: absolute;
+        left: -9px;
+        top: 10px;
+        font-weight: 700;
+        border-radius: 100%;
+        color: #fff;
+        width: 4px;
+        height: 4px;
+        background-color: $text-color;
+        line-height: 24px;
+        text-align: center;
+      }
+    }
+    a {
+      margin-top: 52px;
+      max-width: 204px;
+      background-color: $pink-accent;
+    }
+  }
+  &__photo {
+    width: 487px;
+    position: absolute;
+    top: 170px;
+    right: 0;
+    height: 100%;
+    @media (max-width: 1499px) {
+      width: 440px;
+    }
+    @media (max-width: 1199px) {
+      width: 370px;
+    }
+    @media (max-width: 991px) {
+      width: 345px;
+      top: 260px;
+    }
+    @media (max-width: 767px) {
+      top: 22%;
+      //top: 300px;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    @media (max-width: 575px) {
+      //top: 347px;
+    }
+    @media (max-width: 360px) {
+      width: 290px;
+      top: 25%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

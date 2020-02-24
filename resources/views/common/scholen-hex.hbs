@@ -1,0 +1,21 @@
+<div class="scholen-hex-bg"></div>
+<div class="custom-container">
+  <div class="scholen-hex">
+    {{> ../common/top-nav }}
+    {{> ../common/main-header }}
+    <div class="scholen-hex__heading">
+      <h3>{{scholen-hex-heading}}</h3>
+    </div>
+    <div class="scholen-hex__list">
+      <ul>
+        {{#each scholen-hex-ul}}
+        <li>{{scholen-hex-li}}</li>
+        {{/each}}
+      </ul>
+      <a href="opleidingen-1.html" class="primary-btn">Opleidingen</a>
+    </div>
+    <div class="scholen-hex__photo">
+      <img src="{{scholen-hex-photo}}" alt="scholen">
+    </div>
+  </div>
+</div>
