@@ -36,7 +36,7 @@
   }
   &__miniature {
     position: relative;
-    min-height: 344.8px;
+    min-height: 346px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@
       height: 207px;
       max-width: 328px;
       width: 100%;
-      z-index: -1;
+      z-index: 1;
       overflow: hidden;
       position: absolute;
       top: 0;
@@ -63,7 +63,7 @@
       }
     }
     .miniature__content {
-      padding: 3px 24px 25px 31px;
+      padding: 4px 24px 25px 31px;
       background-color: #fff;
       position: relative;
       border-bottom-right-radius: 5px;
@@ -106,13 +106,13 @@
     }
   }
   &__miniature:nth-of-type(1) .miniature__bg {
-    background: url("images/hoogte/firework.jpg");
+    background: url("images/hoogte/firework3.png");
   }
   &__miniature:nth-of-type(2) .miniature__bg {
-    background: url("images/hoogte/childdraw.jpg");
+    background: url("images/hoogte/childdraw.png");
   }
   &__miniature:nth-of-type(3) .miniature__bg {
-    background: url("images/hoogte/childdraw2.jpg");
+    background: url("images/hoogte/childdraw2.png");
   }
   &__button {
     display: flex;
