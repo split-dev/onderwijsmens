@@ -1,6 +1,4 @@
 .scholen-hex-bg {
-  background: url("images/scholen1-bg.png") no-repeat top left;
-  background-size: cover;
   z-index: -1;
   overflow: hidden;
   height: 696px;
@@ -59,7 +57,7 @@
       list-style: none;
       position: relative;
       @media (max-width: 991px) {
-        max-width: 536px;
+        max-width: 409px;
       }
       &:after {
         content: "•";

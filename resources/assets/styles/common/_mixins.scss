@@ -54,9 +54,9 @@ h3 {
   font-size: 2.375rem; /* 38 */
   color: $text-color;
   line-height: 1.24;
-  //@media (max-width: 767px) {
-  //  font-size: 26px;
-  //}
+  @media (max-width: 767px) {
+    font-size: 26px;
+  }
 }
 h4 {
   font-family: $extra-font;

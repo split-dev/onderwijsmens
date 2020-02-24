@@ -44,5 +44,8 @@
       "ticks-text2" : "De leraar is regisseur van het onderwijs",
       "ticks-text3" : "Leraren hebben hoge verwachtingen van de leerlingen"
     }
-  ]
+  ],
+
+  "feedback-heading1" : "Deze organisaties gingen je voor,",
+  "feedback-heading-underline" : "met succes!"
 }

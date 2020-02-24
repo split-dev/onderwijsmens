@@ -1,4 +1,28 @@
 {
+  "main-heading-1" : "OnderwijsMens biedt",
+  "main-heading-2" : "perspectief aan besturen",
+  "main-sub-1" : "Bestuur",
+
+  "scholen-hex-heading" : "Het verbeteren je bestuur?",
+  "scholen-hex-ul" : [
+    {
+      "scholen-hex-li" : "Zoek je naar je toegevoegde waarde als bestuurder, voor onderwijskwaliteit in de scholen?"
+    },
+    {
+      "scholen-hex-li" : "Heb je zorgen over het verantwoorden van onderwijskwaliteit van een directeur?"
+    },
+    {
+      "scholen-hex-li" : "Weet je niet waar je moet beginnnen met het monitoren van het strategisch beleid?"
+    },
+    {
+      "scholen-hex-li" : "Wordt er in jouw bestuur te veel vergaderd en zoek je naar verdiepend samen leren?"
+    },
+    {
+      "scholen-hex-li" : "Maak je je zorgen over de kwaliteit van het onderwijs op een school?"
+    }
+  ],
+  "scholen-hex-photo" : "images/scholen2.png",
+
   "ticks" : [
     {
       "ticks-heading" : "Opbrengst bestuurders",
@@ -12,5 +36,7 @@
       "ticks-text2" : "Planmatige ondersteuning: sturing op maat",
       "ticks-text3" : "Transparante monitoring: geen verborgen agenda's"
     }
-  ]
+  ],
+  "feedback-heading1" : "Deze organisaties gingen je voor,",
+  "feedback-heading-underline" : "met succes!"
 }

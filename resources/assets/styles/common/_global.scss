@@ -18,3 +18,10 @@
     max-width: 100%;
   }
 }
+.scholen-1,
+.scholen-2 {
+  .main-header .main-header__subheading span:nth-of-type(2) {
+    display: none;
+  }
+}
+
