@@ -5,6 +5,12 @@
         <h3>{{download-heading}} <strong>{{download-heading-underline}}</strong></h3>
         <form action="#"></form>
       </div>
-      <a href=""></a></div>
+      {{#each downoad-item}}
+       <div class="download__item">
+         <a href="{{download-href-main}}">{{download-text-main}}</a>
+         <a href="{{download-href-button}}">{{download-text-button}}</a>
+       </div>
+      {{/each}}
   </div>
+</div>
 </div>
