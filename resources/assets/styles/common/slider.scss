@@ -3,6 +3,7 @@
 }
 .feedback-bg {
   background: url("images/ref1-bg.png") top left no-repeat;
+  background-size: cover;
   background-position-y: -90px;
   z-index: -1;
   overflow: hidden;
@@ -46,23 +47,33 @@
     h3 {
       line-height: 1.24;
       color: #fff;
+      @media (max-width: 343px), (min-width: 415px) and (max-width: 1199px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
       @media (max-width: 991px) {
         text-align: center;
       }
       strong {
         position: relative;
-        @media (max-width: 343px), (min-width: 415px) and (max-width: 1199px) {
-          display: block;
-        }
-      }
-      strong:after {
-        position: absolute;
-        content: url("images/icons/underline-white.svg");
-        bottom: -12px;
-        left: 0;
-        width: 100%;
-        @media (max-width: 767px) {
-          content: url("images/icons/underline-white-mobile.svg");
+        //@media (max-width: 343px), (min-width: 415px) and (max-width: 1199px) {
+        //  display: block;
+        //}
+        &:after {
+          position: absolute;
+          content: "";
+          background: url("images/icons/underline-white.svg") no-repeat;
+          background-size: 100%;
+          right: 0;
+          bottom: -1px;
+          left: 0;
+          width: 100%;
+          height: 4px;
+          @media (max-width: 767px) {
+            //content: url("images/icons/underline-white-mobile.svg");
+            bottom: -1px;
+          }
         }
       }
     }

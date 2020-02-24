@@ -77,16 +77,20 @@
         strong {
           position: relative;
           display: inline;
-        }
-        strong:after {
-          position: absolute;
-          content: url("images/icons/underline-pink.svg");
-          bottom: -12px;
-          left: 0;
-          width: 100%;
-          @media (max-width: 767px) {
-            content: url("images/icons/underline-pink-mobile.svg");
-            bottom: -8px;
+          &:after {
+            content: "";
+            position: absolute;
+            background: url("images/icons/underline-pink.svg") no-repeat;
+            background-size: 100%;
+            right: 0;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            @media (max-width: 767px) {
+              //content: url("images/icons/underline-pink-mobile.svg");
+              bottom: -3px;
+            }
           }
         }
       }
