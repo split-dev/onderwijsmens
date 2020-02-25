@@ -6,9 +6,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  //@media (min-width: 1921px) {
-  //  height: 1071px;
-  //}
   &:after {
     content: "";
     position: absolute;
@@ -45,11 +42,130 @@
     max-width: 100%;
   }
 }
+.over-ons,
+.opleidingen-1,
 .scholen-1,
 .scholen-2,
-.downloads {
+.downloads,
+.nieuws-1,
+.referenties-1,
+.contact-page {
   .main-header .main-header__subheading span:nth-of-type(2) {
     display: none;
+  }
+}
+
+.scholen-hex {
+  position: relative;
+  &__heading {
+    @media (max-width: 991px) {
+      width: 45%;
+    }
+    @media (max-width: 767px) {
+      width: 100%;
+      text-align: center;
+      padding-top: 264px;
+    }
+    span:nth-of-type(1) {
+      color: $purple-accent;
+      font-family: $nexa-bold;
+      font-size: 1rem;
+      letter-spacing: 0.8px;
+    }
+    h3 {
+      color: $purple-accent;
+      margin-bottom: 27.5px;
+      line-height: 1.24;
+    }
+  }
+  &__list {
+    ul {
+      padding-left: 13px;
+    }
+    li {
+      max-width: 678px;
+      width: 100%;
+      line-height: 1.56;
+      margin-bottom: 15px;
+      font-family: $bold-font;
+      font-size: 1rem;
+      letter-spacing: 0.4px;
+      color: $text-color;
+      list-style: none;
+      position: relative;
+      @media (max-width: 991px) {
+        max-width: 409px;
+      }
+      @media (max-width: 767px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      &:after {
+        content: "•";
+        position: absolute;
+        left: -9px;
+        top: 10px;
+        font-weight: 700;
+        border-radius: 100%;
+        color: #fff;
+        width: 4px;
+        height: 4px;
+        background-color: $text-color;
+        line-height: 24px;
+        text-align: center;
+      }
+    }
+    a {
+      margin-top: 52px;
+      max-width: 204px;
+      background-color: $pink-accent;
+      @media (max-width: 767px) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+  &__photo {
+    width: 487px;
+    position: absolute;
+    top: 170px;
+    right: 0;
+    height: 100%;
+    @media (max-width: 1499px) {
+      width: 440px;
+    }
+    @media (max-width: 1199px) {
+      width: 370px;
+    }
+    @media (max-width: 991px) {
+      width: 345px;
+      top: 260px;
+    }
+    @media (max-width: 767px) {
+      top: 23%;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    @media (max-width: 575px) {
+      //top: 347px;
+    }
+    @media (max-width: 360px) {
+      width: 290px;
+      top: 25%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.over-ons,
+.nieuws-2,
+.referenties-2 {
+  .hex-text {
+    h3 {
+      color: $text-color;
+    }
   }
 }
 

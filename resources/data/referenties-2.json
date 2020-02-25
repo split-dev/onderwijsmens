@@ -2,5 +2,25 @@
   "main-heading-1" : "Deze organisaties gingen",
   "main-heading-2" : "je succesvol voor!",
   "main-sub-1" : "Referenties",
-  "main-sub-2" : "Een bestuurder vertelt..."
+  "main-sub-2" : "Een bestuurder vertelt...",
+
+  "hex-date" : "Pien Franken",
+  "scholen-hex-heading" : "Een bestuurder vertelt...",
+
+  "hex-text" : [
+    {
+      "hex-paragraph" : "Mevrouw Pien Franken, bestuursmanager van Stichting Proles aan het woord:\n\"Als bestuurder had ik zorgen over de (eind) opbrengsten op een aantal scholen. Weliswaar waren er geen scholen met het predicaat “zwak” van de inspectie, maar de opbrengsten waren te wisselend."
+    },
+    {
+      "hex-paragraph" : "Ondanks al het harde werken, de interventies en de goede wil, kregen we niet genoeg spits waar het probleem nu zat. We werkten toch opbrengstgericht? We maakten toch trendanalyses? Waar bleven dan de stabiele resultaten die we zo graag wilden, zodat we ook tijd krijgen voor de andere belangrijke dingen in het onderwijs?"
+    },
+    {
+      "hex-paragraph" : "OnderwijsMens heeft op een aantal scholen uitgebreid geanalyseerd. En gelukkig niet alleen de harde cijfers, maar juist ook de aanpak in de groepen bekeken. Wat gaat er goed, wat kan er beter en wat werkt? In nauw overleg met de directeur, samen observe- ren, samen zoeken naar oplossingen en interventies met het team. En met resultaat!"
+    },
+    {
+      "hex-paragraph" : "De trajecten hebben hun vruchten afgeworpen: scholen zijn beter toegerust en weten waar ze de energie het beste aan kunnen besteden. Daarnaast zijn we ook gaan kijken wat we op bestuursniveau kunnen aanpakken. Waar kunnen we van elkaar leren? Ik heb OnderwijsMens ervaren als een krachtige, constructieve meedenker. Geen blad voor de mond, veel kennis van zaken en een warm hart voor onderwijs, de leerkrachten en direc- teuren die dagelijks het onderwijs vorm geven.\""
+    }
+
+  ],
+  "scholen-hex-photo" : "images/ref-2.png"
 }

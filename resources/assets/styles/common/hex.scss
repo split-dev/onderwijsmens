@@ -1,0 +1,19 @@
+.hex-text {
+  p:nth-of-type(1) {
+    font-family: $bold-font;
+  }
+  p {
+    max-width: 684px;
+    width: 100%;
+    @include body-typo;
+    line-height: 1.56;
+    margin-bottom: 28px;
+    @media (max-width: 991px) {
+      max-width: 409px;
+    }
+    @media (max-width: 767px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

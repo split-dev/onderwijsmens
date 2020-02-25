@@ -3,6 +3,18 @@
   "main-heading-2" : "organisatie verrijken",
   "main-sub-1" : "Opleidingen",
 
+  "scholen-hex-heading" : "Opleidingen",
+
+  "hex-text" : [
+    {
+      "hex-paragraph" : "Kun je niet wachten om het onderwijs voor de kinderen op jouw school te verrijken? Ben je op zoek naar een opleiding waar jouw eigen onderwijspraktijk centraal staat?"
+    },
+    {
+      "hex-paragraph" : "Een opleiding waarin je vanuit visie en theorie je eigen handelen en denken leert verdiepen? Om een expert te worden, die het verschil kan maken voor kinderen, leraren en jouw team? Dan vind je bij ons de opleidingen die je zoekt. Alle opleidingen worden in overleg ook op maat en op locatie aangeboden."
+    }
+  ],
+  "scholen-hex-photo" :  "images/opleidingen-1.png",
+
   "download-heading": "Opleidingen",
   "download-heading-underline": "overzicht",
   "download-item": [

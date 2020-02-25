@@ -1,0 +1,19 @@
+<div class="slant-bg"></div>
+<div class="custom-container">
+  <div class="top-wrap scholen-hex">
+    {{> ../common/top-nav }}
+    {{> ../common/main-header }}
+    <div class="scholen-hex__heading">
+      <span>{{hex-date}}</span>
+      <h3>{{scholen-hex-heading}}</h3>
+    </div>
+    <div class="hex-text">
+      {{#each hex-text}}
+        <p>{{hex-paragraph}}</p>
+      {{/each}}
+    </div>
+    <div class="scholen-hex__photo">
+      <img src="{{scholen-hex-photo}}" alt="scholen">
+    </div>
+  </div>
+</div>

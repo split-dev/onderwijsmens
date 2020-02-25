@@ -3,6 +3,21 @@
   "main-heading-2" : "koers te varen",
   "main-sub-1" : "Over ons",
 
+  "scholen-hex-heading" : "Ontwikkeld vanuit behoefte",
+
+  "hex-text" : [
+    {
+      "hex-paragraph" : "De grondslag van OnderwijsMens en OnderwijsKwaliteit heeft zich ontwikkeld tijdens de leerloopbanen van de initiatiefnemer en de eigenaar van beide bedrijven, drs. Wilma Willems."
+    },
+    {
+      "hex-paragraph" : "Wilma had als kind één wens: juf worden in een school, zoals haar voorbeeldjuffen en -meesters, die haar als mens zonder vooroordelen de wereld wilden leren kennen. Zij hebben haar wereld groot gemaakt, vanuit het kleine dorp waar ze is opgegroeid."
+    },
+    {
+      "hex-paragraph" : "Wilma startte als juf, werd leidinggevende in het onderwijs, ontwikkelde zich van Pabo-docent, studieloopbaanbegeleider, stagecoördinator, curriculumontwikkelaar en leidinggevende in het hbo tot onderwijsadviseur en directeur van onderwijsinstelling OnderwijsMens B.V. en onderwijsbureau OnderwijsKwaliteit B.V."
+    }
+  ],
+  "scholen-hex-photo" :  "images/over-ons-1.png",
+
   "partners__item1" : "images/partners/serve.png",
   "partners__item2" : "images/partners/bol.png",
   "partners__item3" : "images/partners/studio.png",

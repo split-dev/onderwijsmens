@@ -1,4 +1,29 @@
 .opleidingen-1 {
+  .slant-bg {
+    background: url("images/opleidingen-bg.png") no-repeat top left;
+    background-size: cover;
+  }
+  .main-header {
+    @media (max-width: 991px) and (min-width: 768px) {
+      width: 69%;
+    }
+  }
+  .scholen-hex {
+    padding-bottom: 98px;
+    &__photo {
+      @media (max-width: 767px) {
+        top: 24%;
+      }
+      @media (max-width: 360px) {
+        top: 28%;
+      }
+    }
+  }
+  .scholen-hex__heading {
+    h3 {
+      color: $lightblue-accent;
+    }
+  }
   .download {
     padding: 77px 0 102px;
     @media (max-width: 767px) {
