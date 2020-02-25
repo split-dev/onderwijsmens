@@ -1,2 +1,70 @@
 {
+  "download-heading": "Download",
+  "download-heading-underline": "overzicht",
+  "download-search" : "images/icons/search.svg",
+  "download-item": [
+    {
+      "download-href-main": "#",
+      "download-text-main": "Leesbegrip wat klopt er niet?(JSW, februari 2017)",
+      "download-href-button": "#"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Leerlijnen Taal Begrijpend lezen",
+      "download-href-button": "#"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Kijkwijzer begrijpend lezen-OnderwijsMens (2016)",
+      "download-href-button": "#"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Begrijpend lezen als vak afschaffen? (Paul Filipiak)",
+      "download-href-button": "#"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Close Reading of toch begrijpend lezen?",
+      "download-href-button": "#"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Leren lezen. Het onderwijs levert een wanprestatie. Peter van Leeuwen",
+      "download-href-button": "#"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Aandacht voor begrijpend lezen",
+      "download-href-button": "#"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Toetstekst als leesgenre",
+      "download-href-button": "#"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Beter toetsen en evalueren van lezen met begrip",
+      "download-href-button": "#"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Begrijpend lezen in leeslessen en geschiedenislessen",
+      "download-href-button": "#"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Werken met taakprofielen uit begrijpend lezen 3.0",
+      "download-href-button": "#"
+    },
+    {
+      "download-href-main": "#",
+      "download-text-main": "Begrip voor begrijpend lezen",
+      "download-href-button": "#"
+    }
+  ],
+
+  "feedback-heading1" : "Deze organisaties gingen je voor,",
+  "feedback-heading-underline" : "met succes!"
 }

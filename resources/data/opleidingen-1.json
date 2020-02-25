@@ -26,6 +26,8 @@
       "download-href-button": "#",
       "download-text-button": "Lees meer"
     }
-  ]
+  ],
+  "feedback-heading1" : "Deze organisaties gingen je voor,",
+  "feedback-heading-underline" : "met succes!"
 }
 

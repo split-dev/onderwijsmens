@@ -1,4 +1,11 @@
-.scholen-2 .scholen-hex-bg {
-  background: url("images/scholen2-bg.png") no-repeat top left;
-  background-size: cover;
+.scholen-2 {
+  .slant-bg {
+    background: url("images/scholen2-bg.png") no-repeat top left;
+    background-size: cover;
+  }
+  .scholen-hex {
+    position: relative;
+    padding-bottom: 93px;
+  }
 }
+

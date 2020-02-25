@@ -1,0 +1,20 @@
+.downloads {
+  .download {
+    padding-bottom: 155px;
+  }
+  .download__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  .download__item {
+    a:nth-of-type(2) {
+      padding: 16px 13px;
+      min-width: 47px;
+      &:after {
+        position: static;
+      }
+    }
+  }
+}
