@@ -4,33 +4,6 @@
     background: url("images/opleidingen-bg.png") no-repeat top left;
     background-size: cover;
   }
-  .main-header {
-    @media (max-width: 575px) {
-      padding-bottom: 120px;
-    }
-    @media (max-width: 320px) {
-      padding-top: 0;
-    }
-    h1 {
-      @media (max-width: 575px) {
-        max-width: 345px;
-      }
-    }
-    &__subheading span:nth-of-type(2) {
-      padding-right: 0;
-      @media (max-width: 360px) {
-        font-size: 0.69rem;
-      }
-      &:before {
-        @media (max-width: 575px) {
-          line-height: 48px;
-        }
-        @media (max-width: 360px) {
-          line-height: 32px;
-        }
-      }
-    }
-  }
   .scholen-hex {
     padding-bottom: 97px;
     @media (max-width: 1199px) {

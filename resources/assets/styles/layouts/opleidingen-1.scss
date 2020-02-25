@@ -7,16 +7,21 @@
     @media (max-width: 991px) and (min-width: 768px) {
       width: 69%;
     }
+    h1 {
+      @media (max-width: 575px) {
+        max-width: 345px;
+      }
+    }
   }
   .scholen-hex {
     padding-bottom: 66.5px;
     &__photo {
-      @media (max-width: 767px) {
-        top: 24%;
-      }
-      @media (max-width: 360px) {
-        top: 28%;
-      }
+      //@media (max-width: 767px) {
+      //  top: 24%;
+      //}
+      //@media (max-width: 360px) {
+      //  top: 28%;
+      //}
     }
   }
   .download {

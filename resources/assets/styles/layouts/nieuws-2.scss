@@ -1,0 +1,32 @@
+.nieuws-2 {
+  .slant-bg {
+    background: url("images/nieuws2-bg.png") no-repeat top left;
+    background-size: cover;
+  }
+  .scholen-hex {
+    padding-bottom: 51.5px;
+
+    .scholen-hex__heading {
+      h3 {
+        max-width: 641px;
+        margin-top: 16px;
+      }
+    }
+  }
+  .hoogte-bg {
+    &:after {
+      height: 209px;
+    }
+  }
+  .hoogte {
+    &__heading {
+      margin-top: 68px;
+    }
+    &__button {
+      margin-bottom: 209px;
+      @media (max-width: 767px) {
+        margin-bottom: 109px;
+      }
+    }
+  }
+}
