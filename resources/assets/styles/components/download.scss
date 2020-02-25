@@ -39,6 +39,7 @@
       height: 45px;
       border-bottom: 1px solid #9d9d9c;
       color: $text-color;
+      padding-top: 21px;
     }
     button {
       position: absolute;
@@ -59,7 +60,7 @@
       font-family: $light-font;
       font-size: 1rem;
       letter-spacing: 0.4px;
-      transform: translateY(50%);
+      //transform: translateY(50%);
     }
     input:-moz-placeholder {
       color: #b2b2b2;
@@ -98,6 +99,13 @@
 
       &:hover {
         text-decoration: none;
+      }
+      @media (max-width: 991px) {
+        width: 63%;
+        line-height: 1.33;
+        min-height: 58px;
+        display: flex;
+        align-items: center;
       }
     }
   }

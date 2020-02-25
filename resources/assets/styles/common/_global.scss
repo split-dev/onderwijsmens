@@ -1,3 +1,29 @@
+.slant-bg {
+  z-index: -1;
+  overflow: hidden;
+  height: 700px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  //@media (min-width: 1921px) {
+  //  height: 1071px;
+  //}
+  &:after {
+    content: "";
+    position: absolute;
+    width: 115%;
+    height: 427px;
+    bottom: -106px;
+    left: -24px;
+    z-index: -1;
+    background-color: #fff;
+    transform: rotate(174.4deg);
+    @media (min-width: 1921px) {
+      bottom: -99px;
+    }
+  }
+}
 .custom-container {
   max-width: 1230px;
   padding: 0 15px;
@@ -19,7 +45,8 @@
   }
 }
 .scholen-1,
-.scholen-2 {
+.scholen-2,
+.downloads {
   .main-header .main-header__subheading span:nth-of-type(2) {
     display: none;
   }

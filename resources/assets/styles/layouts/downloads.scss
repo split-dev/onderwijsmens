@@ -2,22 +2,48 @@
   .slant-bg {
     background: url("images/download-bg.png") no-repeat top left;
     background-size: cover;
+    &:after {
+      background-color: #f0f3f6;
+    }
   }
   .download {
     padding-bottom: 155px;
+    @media (max-width: 767px) {
+      padding-bottom: 75px;
+    }
   }
   .download__heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 35px;
+    @media (max-width: 991px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    h3 {
+      @media (max-width: 991px) {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    }
   }
   .download__item {
+    a:nth-of-type(1) {
+      @media (max-width: 767px) {
+        width: 75%;
+        min-height: 69px;
+        font-size: 1.125rem;
+      }
+    }
     a:nth-of-type(2) {
       padding: 16px 13px;
       min-width: 47px;
       &:after {
-        position: static;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        right: 0;
       }
     }
   }
