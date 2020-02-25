@@ -4,10 +4,11 @@
   height: 49px;
   transition: 0.3s;
   padding: 13px 45px 13px 0;
-  border-radius: 3px;
+  border-radius: 4px;
   position: relative;
   @include flex-center;
   @include button-typo;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
   &:after {
     content: url("images/icons/arrow.svg");
     display: inline;
@@ -28,7 +29,7 @@
   height: 47px;
   transition: 0.3s;
   padding: 13px 39px 13px 0;
-  border-radius: 3px;
+  border-radius: 4px;
   border: 1px solid $green-accent;
   background-color: #fff;
   @include flex-center;

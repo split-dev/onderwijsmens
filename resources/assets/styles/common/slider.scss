@@ -11,20 +11,20 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 413px;
+  height: 409px;
   &:after {
     content: "";
     position: absolute;
     width: 115%;
-    height: 240px;
+    height: 236px;
     bottom: -106px;
     left: -30px;
     z-index: -1;
     background-color: #fff;
     transform: rotate(175deg);
     @media (min-width: 1921px) {
-      height: 350px;
-      bottom: -221px;
+      height: 350px !important;
+      bottom: -221px !important;
     }
   }
 }

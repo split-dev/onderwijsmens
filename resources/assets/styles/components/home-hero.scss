@@ -23,7 +23,7 @@
     transform: rotate(175.6deg);
     @media (min-width: 1921px) {
       height: 350px;
-      bottom: -221px;
+      //bottom: -221px;
     }
   }
 }
@@ -89,6 +89,7 @@
       justify-content: flex-start;
       padding-left: 21px;
       border-radius: 5px;
+      box-shadow: none;
       @media (max-width: 575px) {
         padding-left: 11px;
       }
