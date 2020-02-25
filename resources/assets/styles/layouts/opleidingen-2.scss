@@ -1,1 +1,64 @@
+.opleidingen-2 {
 
+  .slant-bg {
+    background: url("images/opleidingen-bg.png") no-repeat top left;
+    background-size: cover;
+  }
+  .main-header {
+    @media (max-width: 575px) {
+      padding-bottom: 120px;
+    }
+    @media (max-width: 320px) {
+      padding-top: 0;
+    }
+    h1 {
+      @media (max-width: 575px) {
+        max-width: 345px;
+      }
+    }
+    &__subheading span:nth-of-type(2) {
+      padding-right: 0;
+      @media (max-width: 360px) {
+        font-size: 0.69rem;
+      }
+      &:before {
+        @media (max-width: 575px) {
+          line-height: 48px;
+        }
+        @media (max-width: 360px) {
+          line-height: 32px;
+        }
+      }
+    }
+  }
+  .scholen-hex {
+    padding-bottom: 97px;
+    @media (max-width: 1199px) {
+      padding-bottom: 30px;
+    }
+    &__heading {
+      width: 100%;
+      @media (max-width: 767px) {
+        padding-top: 0;
+      }
+    }
+  }
+  .hex-text {
+    p {
+      @media (max-width: 991px) {
+        max-width: 100%;
+      }
+    }
+    p:nth-of-type(3) {
+      color: $lightblue-accent;
+      font-family: $extra-font;
+      font-size: 1.5rem;
+      padding-top: 45px;
+      line-height: 1.25;
+      margin-bottom: 22px;
+      @media (max-width: 767px) {
+        text-align: center;
+      }
+    }
+  }
+}
