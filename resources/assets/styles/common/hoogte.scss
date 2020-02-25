@@ -81,9 +81,9 @@
       @media (max-width: 767px) {
         padding-top: 18px;
       }
-      @media (max-width: 320px) {
-        padding-top: 42px;
-      }
+      //@media (max-width: 320px) {
+      //  padding-top: 42px;
+      //}
       @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
         /* IE10+ CSS styles go here */
         padding-top: 5px;

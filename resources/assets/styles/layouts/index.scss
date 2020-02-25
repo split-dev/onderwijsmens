@@ -9,14 +9,14 @@
   }
   .hoogte-wrap .custom-container {
     position: absolute;
-    top: -270px;
+    top: -255px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     z-index: 1;
-    @media (max-width: 374px) {
-      top: -295px;
-    }
+    //@media (max-width: 374px) {
+    //  top: -295px;
+    //}
   }
   //.hoogte__body {
   //  @media (max-width: 1199px) {
