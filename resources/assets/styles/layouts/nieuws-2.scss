@@ -5,28 +5,5 @@
   }
   .scholen-hex {
     padding-bottom: 51.5px;
-
-    .scholen-hex__heading {
-      h3 {
-        max-width: 641px;
-        margin-top: 16px;
-      }
-    }
-  }
-  .hoogte-bg {
-    &:after {
-      height: 209px;
-    }
-  }
-  .hoogte {
-    &__heading {
-      margin-top: 68px;
-    }
-    &__button {
-      margin-bottom: 209px;
-      @media (max-width: 991px) {
-        margin-bottom: 109px;
-      }
-    }
   }
 }

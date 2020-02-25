@@ -22,5 +22,27 @@
     }
 
   ],
-  "scholen-hex-photo" : "images/ref-2.png"
+  "scholen-hex-photo" : "images/ref-2.png",
+
+  "hoogte-heading" :  "Blijf op de",
+  "hoogte-heading-underline" : "hoogte",
+  "hoogte-miniature" : [
+    {
+      "hoogte-miniature-href" : "images/hoogte/class.jpg",
+      "hoogte-miniature-date" : "Directeur Agnes Scheffers",
+      "hoogte-miniature-text" : "Directeur Agnes Scheffers vertelt..."
+    },
+    {
+      "hoogte-miniature-href" : "images/hoogte/icecream.jpg",
+      "hoogte-miniature-date" : "Pien Franken",
+      "hoogte-miniature-text" : "Een bestuurder vertelt..."
+    },
+    {
+      "hoogte-miniature-href" : "images/hoogte/yard.jpg",
+      "hoogte-miniature-date" : "Iris Pennings",
+      "hoogte-miniature-text" : "Een leraar vertelt..."
+    }
+  ],
+  "hoogte-button-href" : "referenties-2.html",
+  "hoogte-button-text" : "Alle referenties"
 }

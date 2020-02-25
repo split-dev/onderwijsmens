@@ -1,7 +1,22 @@
 .referenties-2 {
-  .hex-text {
-    h3 {
-      color: $text-color;
+  h1 {
+    @media (max-width: 320px) {
+      font-size: 36px;
     }
+  }
+  .slant-bg {
+    background: url("images/ref1-bg.png") no-repeat top left;
+    background-size: cover;
+  }
+  .scholen-hex {
+    padding-bottom: 55.5px;
+  }
+  .main-header {
+    @media (min-width: 768px) and (max-width: 991px) {
+      width: 94%;
+    }
+    //h1 span {
+    //  display: inline;
+    //}
   }
 }

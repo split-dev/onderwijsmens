@@ -90,6 +90,7 @@
 .scholen-hex {
   position: relative;
   &__heading {
+    max-width: 641px;
     @media (max-width: 991px) {
       width: 45%;
     }
@@ -217,6 +218,14 @@
   .main-header {
     padding-bottom: 172px;
   }
+  .scholen-hex__heading {
+    @media (min-width: 361px) and (max-width: 767px) {
+      padding-top: 360px;
+    }
+    h3 {
+      margin-top: 16px;
+    }
+  }
   .hoogte-bg {
     background-color: #f0f3f6;
     height: 784px;
@@ -225,6 +234,7 @@
       content: "";
       position: absolute;
       width: 115%;
+      height: 209px;
       bottom: -106px;
       left: -30px;
       z-index: -1;
@@ -233,6 +243,17 @@
       @media (min-width: 1921px) {
         height: 350px !important;
         bottom: -221px !important;
+      }
+    }
+  }
+  .hoogte {
+    &__heading {
+      margin-top: 68px;
+    }
+    &__button {
+      margin-bottom: 209px;
+      @media (max-width: 991px) {
+        margin-bottom: 109px;
       }
     }
   }
