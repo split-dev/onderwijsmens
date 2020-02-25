@@ -197,7 +197,7 @@
 .slick-dots {
   position: absolute;
   right: 58px;
-  bottom: 33px;
+  bottom: 41px;
   display: flex;
   width: 48px;
   padding: 0;
@@ -213,6 +213,7 @@
 }
 .slick-dots li button:before {
   content: url("images/icons/bullet.svg");
+  position: static;
 }
 .feedback__miniature {
   width: 361px;
