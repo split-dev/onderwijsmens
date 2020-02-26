@@ -5,9 +5,9 @@
   }
   .scholen-hex {
     padding-bottom: 105px;
-    //@media (max-width: 1199px) {
-    //  padding-bottom: 30px;
-    //}
+    @media (max-width: 767px) {
+      padding-bottom: 60px;
+    }
   }
   .hoogte-bg {
     background-color: #f0f3f6;
