@@ -1,6 +1,7 @@
 import 'jquery'
 import 'slick'
 import 'slick-carousel'
+import 'select2';
 
 export default {
   init() {
@@ -20,6 +21,9 @@ export default {
       arrows: true,
       dots: false,
       // fade: true,
+    });
+    $('#contact-select').select2({
+      // dropdownParent: $('#buy__form-select-wrapper1'),
     });
   },
 
