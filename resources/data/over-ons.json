@@ -18,6 +18,43 @@
   ],
   "scholen-hex-photo" :  "images/over-ons-1.png",
 
+  "hoogte-heading" : "Team",
+  "hoogte-heading-underline" : "OnderwijsMens",
+  "hoogte-heading2" : "met OnderwijsKwaliteit",
+  "hoogte-miniature" : [
+    {
+      "hoogte-miniature-href" : "images/over-ons/wilma.jpg",
+      "hoogte-miniature-date" : "Specialist",
+      "hoogte-miniature-text" : "Wilma Willems",
+      "hoogte-button-href" : "#"
+    },
+    {
+      "hoogte-miniature-href" : "images/over-ons/jose.jpg",
+      "hoogte-miniature-date" : "Specialist",
+      "hoogte-miniature-text" : "José Reijnen",
+      "hoogte-button-href" : "#"
+    },
+    {
+      "hoogte-miniature-href" : "images/over-ons/lieve.jpg",
+      "hoogte-miniature-date" : "Specialist",
+      "hoogte-miniature-text" : "Lieve Schoofs",
+      "hoogte-button-href" : "#"
+    },
+    {
+      "hoogte-miniature-href" : "images/over-ons/bart.jpg",
+      "hoogte-miniature-date" : "Specialist",
+      "hoogte-miniature-text" : "Bart Willems",
+      "hoogte-button-href" : "#"
+    },
+    {
+      "hoogte-miniature-href" : "images/over-ons/janna.jpg",
+      "hoogte-miniature-date" : "Specialist",
+      "hoogte-miniature-text" : "Janna Koopman",
+      "hoogte-button-href" : "#"
+    }
+  ],
+
+
   "partners__item1" : "images/partners/serve.png",
   "partners__item2" : "images/partners/bol.png",
   "partners__item3" : "images/partners/studio.png",

@@ -1,0 +1,30 @@
+<div class="hoogte-bg-wrap">
+  <div class="hoogte-bg"></div>
+</div>
+<div class="hoogte-wrap">
+  <div class="custom-container">
+    <div class="hoogte">
+      <div class="hoogte__heading">
+        <h3>{{hoogte-heading}} <strong>{{hoogte-heading-underline}}</strong> {{hoogte-heading2}}</h3>
+      </div>
+      <div class="hoogte__body">
+        {{#each hoogte-miniature}}
+          <div class="hoogte__miniature">
+            <img src="{{hoogte-miniature-href}}">
+            <div class="team-content">
+              <span>{{hoogte-miniature-date}}</span>
+              <h5>{{hoogte-miniature-text}}</h5>
+              <a href="{{hoogte-miniature-href}}" class="secondary-btn">Stuur mij een mail</a>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+

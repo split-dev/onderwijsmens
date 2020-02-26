@@ -25,19 +25,21 @@
     }
   }
   &__all {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     box-shadow: $shadow-2;
     width: 100%;
   }
-  .slick-list {
-    width: 90.5% !important;
+  &__slider-wrap {
+    max-width: 1115px;
+    width: 100%;
   }
-  .slick-track {
-    display: flex;
-    justify-content: space-between;
-  }
+  //.slick-list {
+  //  width: 90.5% !important;
+  //}
+  //.slick-track {
+  //  display: flex;
+  //  justify-content: space-between;
+  //}
   &__item {
     display: flex !important;
     justify-content: center;
