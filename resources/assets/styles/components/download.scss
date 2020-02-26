@@ -57,6 +57,20 @@
         width: 18px;
         height: 19px;
         margin-bottom: -14px;
+        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+          /* IE10+ CSS styles go here */
+          position: relative;
+          bottom: -21px;
+        }
+        @supports (-ms-accelerator:true) {
+          /* IE Edge 12+ CSS styles go here */
+          position: relative;
+          bottom: -21px;
+        }
+        @-moz-document url-prefix() {
+          position: relative;
+          bottom: -21px;
+        }
       }
     }
     button::-moz-focus-inner {
