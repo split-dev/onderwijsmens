@@ -263,7 +263,7 @@
     position: relative;
     overflow-x: hidden;
     overflow-y: visible;
-    -ms-scroll-limit: 0 0 0 0;
+    -ms-overflow-style: none;
     @media (max-width: 1199px) {
       min-height: 1856px;
     }
