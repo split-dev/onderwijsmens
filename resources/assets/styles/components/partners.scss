@@ -55,12 +55,24 @@
     //padding-left: 22px;
   }
   .slick-next:before {
-    content: url("images/icons/arrow-right.svg");
+    display: none;
+    //content: url("images/icons/arrow-right.svg");
+    //width: 9px;
+    //height: 16px;
+  }
+  .slick-prev:before {
+    display: none;
+    //content: url("images/icons/arrow-left.svg");
+    //width: 9px;
+    //height: 16px;
+  }
+  .slick-prev {
+    background: url("images/icons/arrow-left.svg") center;
     width: 9px;
     height: 16px;
   }
-  .slick-prev:before {
-    content: url("images/icons/arrow-left.svg");
+  .slick-next {
+    background: url("images/icons/arrow-right.svg") center;
     width: 9px;
     height: 16px;
   }
