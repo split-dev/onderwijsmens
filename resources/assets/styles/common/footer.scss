@@ -1,9 +1,9 @@
 .footer {
   a {
     text-decoration: none;
-    &:hover {
-      text-decoration: none;
-    }
+    //&:hover {
+    //  text-decoration: none;
+    //}
   }
   &__top {
     display: flex;
@@ -53,6 +53,24 @@
       @include body-typo;
       line-height: 1.31;
       margin-bottom: 7px;
+    }
+    a {
+      @include body-typo;
+      transition: 0.4s;
+      //&:after {
+      //  content: "";
+      //  display: block;
+      //  width: 0;
+      //  height: 1px;
+      //  background: $text-color;
+      //  transition: width 0.4s;
+      //}
+      //&:hover::after {
+      //  width: 50%;
+      //}
+      &:hover {
+        background-color: #f0f3f6;
+      }
     }
   }
   &__menu-block:nth-of-type(1) {
@@ -128,12 +146,17 @@
       font-size: 1rem;
       letter-spacing: 0.8px;
       line-height: 1.18;
+      transition: 0.3s;
       &:after {
         content: url("images/icons/arrow-green.svg");
         display: inline;
         width: 21px;
         height: 19px;
         transition: 0.3s;
+      }
+      &:hover {
+        text-decoration: underline;
+        //color: darken($green-accent, 15%);
       }
     }
     a:last-of-type {

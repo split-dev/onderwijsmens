@@ -36,6 +36,7 @@
       height: 100%;
       li {
         list-style: none;
+        position: relative;
       }
       li a {
         color: #fff;
@@ -51,6 +52,16 @@
 }
 
 .top-nav-interaction {
-  color: green !important;
+  &:after {
+    position: absolute;
+    content: "";
+    background: url("images/icons/underline-white.svg") no-repeat;
+    background-size: cover;
+    right: 0;
+    bottom: 0;
+    left: -4px;
+    width: 110%;
+    height: 3px;
+  }
 }
 

@@ -54,6 +54,40 @@ export default {
     $('#contact-select').select2({
       // dropdownParent: $('#buy__form-select-wrapper1'),
     });
+
+    let bodyTag = $('body');
+    let scholen = $('.top-nav__menu ul li:nth-of-type(1) a');
+    let bestuur = $('.top-nav__menu ul li:nth-of-type(2) a');
+    let overons = $('.top-nav__menu ul li:nth-of-type(3) a');
+    let opleidingen = $('.top-nav__menu ul li:nth-of-type(4) a');
+    let downloads = $('.top-nav__menu ul li:nth-of-type(5)');
+    let contact = $('.top-nav__menu ul li:nth-of-type(6) a');
+
+    if (bodyTag.hasClass('scholen-1')) {
+      scholen.addClass('top-nav-interaction');
+      // linkMobile1.addClass('top-nav-interaction');
+    }
+    if (bodyTag.hasClass('scholen-2')) {
+      bestuur.addClass('top-nav-interaction');
+      // linkMobile1.addClass('top-nav-interaction');
+    }
+    if (bodyTag.hasClass('over-ons')) {
+      overons.addClass('top-nav-interaction');
+      // linkMobile1.addClass('top-nav-interaction');
+    }
+    if (bodyTag.hasClass('opleidingen-1')) {
+      opleidingen.addClass('top-nav-interaction');
+      // linkMobile1.addClass('top-nav-interaction');
+    }
+    if (bodyTag.hasClass('downloads')) {
+      downloads.addClass('top-nav-interaction');
+      // linkMobile1.addClass('top-nav-interaction');
+    }
+    if (bodyTag.hasClass('contact-page')) {
+      contact.addClass('top-nav-interaction');
+      // linkMobile1.addClass('top-nav-interaction');
+    }
+
   },
 
   // JavaScript to be fired on all pages, after page specific JS is fired

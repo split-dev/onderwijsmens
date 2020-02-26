@@ -1,3 +1,21 @@
+@keyframes bounceOutRight {
+  20% {
+    opacity: 1;
+    -webkit-transform: translate3d(-20px, 0, 0);
+    transform: translate3d(-20px, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+}
+
+.bounceOutRight {
+  -webkit-animation-name: bounceOutRight;
+  animation-name: bounceOutRight;
+}
 .home-hero-bg {
   background: url("images/home-bg.png") no-repeat top left;
   background-size: cover;
@@ -44,6 +62,16 @@
     a {
       max-width: 204px;
       background: $violet-accent;
+      &:hover {
+        color: #fff;
+        text-decoration: none;
+        background: lighten($violet-accent, 10%);
+        //background: linear-gradient(72deg, rgba(221, 221, 250, 1) 0%, rgba(66, 6, 74, 1) 62%, rgba(66, 6, 74, 1) 100%);
+        border: 1px solid lighten($violet-accent, 80%);
+        &:after {
+          @extend .bounceOutRight;
+        }
+      }
     }
   }
   &__services {
