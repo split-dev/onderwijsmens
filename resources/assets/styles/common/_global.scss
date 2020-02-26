@@ -261,6 +261,7 @@
     min-height: 1132px;
     height: 100%;
     position: relative;
+    overflow: hidden;
     @media (max-width: 1199px) {
       min-height: 1856px;
     }
@@ -290,6 +291,12 @@
     background-color: #f0f3f6;
     height: 784px;
     position: absolute;
+    @media (max-width: 1199px) {
+      height: 1100px;
+    }
+    @media (max-width: 767px) {
+      height: 1460px;
+    }
     &:after {
       content: "";
       position: absolute;
@@ -341,3 +348,14 @@
 //    }
 //  }
 //}
+
+//.downloads,
+.nieuws-1,
+.referenties-1,
+.contact-page {
+  .main-header {
+    @media (max-width: 767px) {
+      padding-bottom: 120px;
+    }
+  }
+}
