@@ -66,10 +66,10 @@
         color: #fff;
         text-decoration: none;
         background: lighten($violet-accent, 10%);
-        //background: linear-gradient(72deg, rgba(221, 221, 250, 1) 0%, rgba(66, 6, 74, 1) 62%, rgba(66, 6, 74, 1) 100%);
         border: 1px solid lighten($violet-accent, 80%);
-        &:after {
-          @extend .bounceOutRight;
+        a:after {
+          -webkit-animation-name: bounceOutRight;
+          animation-name: bounceOutRight;
         }
       }
     }

@@ -1,11 +1,16 @@
+.body-hidden {
+  overflow: hidden;
+}
 .slant-bg {
   z-index: -1;
-  overflow: hidden;
   height: 700px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  -ms-overflow-style: none;
   &:after {
     content: "";
     position: absolute;
@@ -216,6 +221,11 @@
 //hoogte pages
 .nieuws-1,
 .referenties-1 {
+  .main-header {
+    @media (max-width: 767px) {
+      padding-bottom: 120px;
+    }
+  }
   .hoogte-bg {
     height: 235px;
     background-color: #fff;
@@ -334,27 +344,6 @@
     }
     @media (max-width: 767px) {
       margin-right: 0;
-    }
-  }
-}
-//.downloads,
-//.nieuws-1,
-//.referenties-1,
-//.contact-page {
-//  .main-header {
-//    @media (max-width: 767px) {
-//      padding-bottom: 120px;
-//    }
-//  }
-//}
-
-//.downloads,
-.nieuws-1,
-.referenties-1,
-.contact-page {
-  .main-header {
-    @media (max-width: 767px) {
-      padding-bottom: 120px;
     }
   }
 }

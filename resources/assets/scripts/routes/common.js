@@ -5,6 +5,13 @@ import 'select2';
 
 export default {
   init() {
+    $('.mobile-menu__burger').click(function() {
+      $('.mobile-menu').toggleClass('mobile-menu--open');
+      $(this).toggleClass('mobile-menu--close-btn');
+      $('.shadow').toggleClass('shadow--show');
+      $('body').toggleClass('body-hidden');
+    });
+
     $('.feedback__slider-init').slick({
       infinite: true,
       slidesToShow: 1,
@@ -62,30 +69,37 @@ export default {
     let opleidingen = $('.top-nav__menu ul li:nth-of-type(4) a');
     let downloads = $('.top-nav__menu ul li:nth-of-type(5)');
     let contact = $('.top-nav__menu ul li:nth-of-type(6) a');
+    //mobile
+    let scholen2 = $('.mobile-menu__menu ul li:nth-of-type(1) a');
+    let bestuur2 = $('.mobile-menu__menu ul li:nth-of-type(2) a');
+    let overons2 = $('.mobile-menu__menu ul li:nth-of-type(3) a');
+    let opleidingen2 = $('.mobile-menu__menu ul li:nth-of-type(4) a');
+    let downloads2 = $('.mobile-menu__menu ul li:nth-of-type(5)');
+    let contact2 = $('.mobile-menu__menu ul li:nth-of-type(6) a');
 
     if (bodyTag.hasClass('scholen-1')) {
       scholen.addClass('top-nav-interaction');
-      // linkMobile1.addClass('top-nav-interaction');
+      scholen2.addClass('mobile-menu-interaction');
     }
     if (bodyTag.hasClass('scholen-2')) {
       bestuur.addClass('top-nav-interaction');
-      // linkMobile1.addClass('top-nav-interaction');
+      bestuur2.addClass('mobile-menu-interaction');
     }
     if (bodyTag.hasClass('over-ons')) {
       overons.addClass('top-nav-interaction');
-      // linkMobile1.addClass('top-nav-interaction');
+      overons2.addClass('mobile-menu-interaction');
     }
     if (bodyTag.hasClass('opleidingen-1')) {
       opleidingen.addClass('top-nav-interaction');
-      // linkMobile1.addClass('top-nav-interaction');
+      opleidingen2.addClass('mobile-menu-interaction');
     }
     if (bodyTag.hasClass('downloads')) {
       downloads.addClass('top-nav-interaction');
-      // linkMobile1.addClass('top-nav-interaction');
+      downloads2.addClass('mobile-menu-interaction');
     }
     if (bodyTag.hasClass('contact-page')) {
       contact.addClass('top-nav-interaction');
-      // linkMobile1.addClass('top-nav-interaction');
+      contact2.addClass('mobile-menu-interaction');
     }
 
   },

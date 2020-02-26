@@ -27,7 +27,7 @@
 
   &__form {
     position: relative;
-    min-width: 450px;
+    width: 450px;
     input,
     button {
       border: none;
@@ -109,8 +109,9 @@
       font-size: 1.375rem;
       line-height: 2.045;
       text-decoration: none;
-
+      transition: 0.3s;
       &:hover {
+        color: $green-accent;
         text-decoration: none;
       }
       @media (max-width: 991px) {

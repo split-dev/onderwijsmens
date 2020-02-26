@@ -56,9 +56,13 @@
   }
   .slick-next:before {
     content: url("images/icons/arrow-right.svg");
+    width: 9px;
+    height: 16px;
   }
   .slick-prev:before {
     content: url("images/icons/arrow-left.svg");
+    width: 9px;
+    height: 16px;
   }
 }
 
