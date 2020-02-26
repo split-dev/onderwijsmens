@@ -56,25 +56,16 @@
       }
     }
     input::-webkit-input-placeholder {
+      @include body-typo;
       color: #b2b2b2;
-      font-family: $light-font;
-      font-size: 1rem;
-      letter-spacing: 0.4px;
-      //transform: translateY(50%);
     }
     input:-moz-placeholder {
+      @include body-typo;
       color: #b2b2b2;
-      font-family: $light-font;
-      font-size: 1rem;
-      letter-spacing: 0.4px;
-      transform: translateY(50%);
     }
     input:-ms-input-placeholder {
+      @include body-typo;
       color: #b2b2b2;
-      font-family: $light-font;
-      font-size: 1rem;
-      letter-spacing: 0.4px;
-      transform: translateY(50%);
     }
   }
 

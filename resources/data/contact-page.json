@@ -1,5 +1,30 @@
 {
   "main-heading-1" : "OnderwijsMens",
   "main-heading-2" : "biedt perspectief",
-  "main-sub-1" : "Contact"
+  "main-sub-1" : "Contact",
+
+
+"contact-item" : [
+  {
+    "contact-img" : "images/icons/geo.svg",
+    "contact-item-heading" : "Bezoekadres",
+    "contact-item-text" : "Hank 50",
+    "contact-item-text2" : "5446 XG Wanroij"
+  },
+  {
+    "contact-img" : "images/icons/email.svg",
+    "contact-item-heading" : "E-mailadres",
+    "contact-item-text" : "Vul onderstaande formulier in of mail naar",
+    "contact-link-href" : "mailto:info@onderwijsmens.nl",
+    "contact-link-text" : "info@onderwijsmens.nl"
+  },
+  {
+    "contact-img" : "images/icons/chat.svg",
+    "contact-item-heading" : "Telefonisch",
+    "contact-item-text" : "Voor al uw vragen, kunt u bellen met",
+    "contact-link-href" : "tel:06 469 96 307",
+    "contact-link-text" : "06 469 96 307"
+  }
+]
+
 }

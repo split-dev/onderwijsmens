@@ -37,6 +37,9 @@ h1 {
   @media (max-width: 767px) {
     font-size: 38px;
   }
+  @media (max-width: 575px) {
+    font-size: 32px;
+  }
 }
 h2 {
   font-family: $extra-font;

@@ -1,5 +1,55 @@
 {
   "main-heading-1" : "Altijd de juiste kennis",
   "main-heading-2" : "Blijf op de hoogte",
-  "main-sub-1" : "Nieuws"
+  "main-sub-1" : "Nieuws",
+
+  "hoogte-heading" :  "Blijf op de",
+  "hoogte-heading-underline" : "hoogte",
+  "hoogte-miniature" : [
+    {
+      "hoogte-miniature-href" : "images/hoogte/firework3.jpg",
+      "hoogte-miniature-date" : "02.01.2020",
+      "hoogte-miniature-text" : "Wens voor 2020 van Onderwijsmens en OnderwijsKwaliteit"
+    },
+    {
+      "hoogte-miniature-href" : "images/hoogte/childdraw3.jpg",
+      "hoogte-miniature-date" : "31.05.2019",
+      "hoogte-miniature-text" : "Blij voor 25 MEI: privacywetgeving (AVG/GDPR)"
+    },
+    {
+      "hoogte-miniature-href" : "images/hoogte/childdraw2.jpg",
+      "hoogte-miniature-date" : "10.04.2019",
+      "hoogte-miniature-text" : "Artikel Vita Magazine: Onderwijskwaliteit authentiek en eigenzinnig"
+    },
+    {
+      "hoogte-miniature-href" : "images/hoogte/pencils.jpg",
+      "hoogte-miniature-date" : "02.01.2020",
+      "hoogte-miniature-text" : "Wens voor 2020 van Onderwijsmens en OnderwijsKwaliteit"
+    },
+    {
+      "hoogte-miniature-href" : "images/hoogte/teacher.jpg",
+      "hoogte-miniature-date" : "31.05.2019",
+      "hoogte-miniature-text" : "Blij voor 25 MEI: privacywetgeving (AVG/GDPR)"
+    },
+    {
+      "hoogte-miniature-href" : "images/hoogte/teacher2.jpg",
+      "hoogte-miniature-date" : "10.04.2019",
+      "hoogte-miniature-text" : "Artikel Vita Magazine: Onderwijskwaliteit authentiek en eigenzinnig"
+    },
+    {
+      "hoogte-miniature-href" : "images/hoogte/running.jpg",
+      "hoogte-miniature-date" : "02.01.2020",
+      "hoogte-miniature-text" : "Wens voor 2020 van Onderwijsmens en OnderwijsKwaliteit"
+    },
+    {
+      "hoogte-miniature-href" : "images/hoogte/handup.jpg",
+      "hoogte-miniature-date" : "31.05.2019",
+      "hoogte-miniature-text" : "Blij voor 25 MEI: privacywetgeving (AVG/GDPR)"
+    },
+    {
+      "hoogte-miniature-href" : "images/hoogte/fingerdown.jpg",
+      "hoogte-miniature-date" : "10.04.2019",
+      "hoogte-miniature-text" : "Artikel Vita Magazine: Onderwijskwaliteit authentiek en eigenzinnig"
+    }
+  ]
 }

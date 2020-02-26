@@ -1,0 +1,60 @@
+.contact-page {
+  .slant-bg {
+    background: url("images/contact-bg.png") no-repeat top left;
+    background-size: cover;
+  }
+  .hoogte__heading {
+    @include flex-center;
+    flex-direction: column;
+
+    h3 {
+      margin-bottom: 21px;
+    }
+    span {
+      max-width: 757px;
+      @include body-typo;
+      margin-bottom: 82px;
+      line-height: 1.75;
+      text-align: center;
+    }
+  }
+
+  .hoogte-bg {
+    height: 290px;
+    background-color: #fff;
+    position: relative;
+  }
+  .hoogte-wrap {
+    position: relative;
+  }
+  .hoogte-wrap .custom-container {
+    position: absolute;
+    top: -326px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 1;
+    //@media (max-width: 767px) {
+    //  top: -255px;
+    //}
+  }
+  .feedback-bg {
+    background: rgb(236, 240, 244);
+    top: 0;
+    min-height: 818px;
+    height: 100%;
+    position: relative;
+    @media (max-width: 1199px) {
+      min-height: 1100px;
+    }
+    @media (max-width: 991px) {
+      min-height: 1700px;
+    }
+    @media (max-width: 767px) {
+      min-height: 1787px;
+    }
+    &:after {
+      height: 212px;
+    }
+  }
+}
