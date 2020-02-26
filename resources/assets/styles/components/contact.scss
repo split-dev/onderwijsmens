@@ -93,6 +93,15 @@
       input:-ms-input-placeholder {
         @include body-typo;
       }
+      textarea::-webkit-input-placeholder {
+        @include body-typo;
+      }
+      textarea:-moz-placeholder {
+        @include body-typo;
+      }
+      textarea:-ms-input-placeholder {
+        @include body-typo;
+      }
       button {
         margin-top: 17px;
         margin-left: auto;
@@ -134,6 +143,7 @@
   margin-bottom: 17px;
 }
 .select2-selection {
+  border: none !important;
   height: 45px !important;
   outline: none !important;
 }
@@ -163,7 +173,10 @@
   }
 }
 .select2-container--default .select2-results__option[aria-selected=true] {
-  background-color: rgba(73, 67, 77, 0.42);
+  background-color: $lightblue-accent;
+}
+.select2-search {
+  display: none;
 }
 .select2-search__field {
   border: 1px solid rgba(73, 67, 77, 0.42);
@@ -181,3 +194,6 @@
   padding: 6px 26px !important;
 }
 
+.select2-dropdown--below {
+  border: 1px solid #aaa !important;
+}
