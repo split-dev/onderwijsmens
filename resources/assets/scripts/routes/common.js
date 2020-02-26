@@ -23,14 +23,20 @@ export default {
       // fade: true,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1500,
+          settings: {
+            slidesToShow: 4,
+          },
+        },
+        {
+          breakpoint: 1199,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 600,
+          breakpoint: 767,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
