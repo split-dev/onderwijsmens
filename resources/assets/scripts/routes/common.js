@@ -60,6 +60,7 @@ export default {
     });
     $('#contact-select').select2({
       // dropdownParent: $('#buy__form-select-wrapper1'),
+      placeholder: 'Stuur mij informatie over...',
     });
 
     let bodyTag = $('body');
