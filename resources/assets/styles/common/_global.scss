@@ -8,9 +8,15 @@
   top: 0;
   left: 0;
   width: 100%;
-  overflow-x: hidden;
-  overflow-y: visible;
-  -ms-overflow-style: none;
+  overflow: hidden;
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+    -ms-overflow-style: none;
+  }
+  //@supports (-ms-accelerator:true) {
+  //  /* IE Edge 12+ CSS styles go here */
+  //  padding-top: 5px;
+  //}
   &:after {
     content: "";
     position: absolute;

@@ -28,17 +28,20 @@
   "hoogte-heading-underline" : "hoogte",
   "hoogte-miniature" : [
     {
-      "hoogte-miniature-href" : "images/hoogte/class.jpg",
+      "hoogte-miniature-href" : "#",
+      "hoogte-miniature-img" : "images/hoogte/class.jpg",
       "hoogte-miniature-date" : "Directeur Agnes Scheffers",
       "hoogte-miniature-text" : "Directeur Agnes Scheffers vertelt..."
     },
     {
-      "hoogte-miniature-href" : "images/hoogte/icecream.jpg",
+      "hoogte-miniature-href" : "referenties-2.html",
+      "hoogte-miniature-img" : "images/hoogte/icecream.jpg",
       "hoogte-miniature-date" : "Pien Franken",
       "hoogte-miniature-text" : "Een bestuurder vertelt..."
     },
     {
-      "hoogte-miniature-href" : "images/hoogte/yard.jpg",
+      "hoogte-miniature-href" : "#",
+      "hoogte-miniature-img" : "images/hoogte/yard.jpg",
       "hoogte-miniature-date" : "Iris Pennings",
       "hoogte-miniature-text" : "Een leraar vertelt..."
     }
