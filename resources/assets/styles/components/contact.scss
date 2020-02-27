@@ -104,7 +104,6 @@
       button {
         margin-top: 17px;
         margin-left: auto;
-        //cursor: pointer;
         background-color: $pink-accent;
         &:hover {
           padding: 13px;
@@ -192,11 +191,6 @@
 .select2-results__option[aria-selected] {
   color: $text-color;
 }
-//.select2-container--focus {
-//  outline: none !important;
-//  border: none !important;
-//  box-shadow: none !important;
-//}
 .select2-results__option {
   padding: 6px 26px !important;
 }

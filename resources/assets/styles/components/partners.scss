@@ -39,32 +39,17 @@
       width: 82%;
     }
   }
-  //.slick-list {
-  //  width: 90.5% !important;
-  //}
-  //.slick-track {
-  //  display: flex;
-  //  justify-content: space-between;
-  //}
   &__item {
     display: flex !important;
     justify-content: center;
     align-items: center;
     height: 174px;
-    //margin-right: 22px;
-    //padding-left: 22px;
   }
   .slick-next:before {
     display: none;
-    //content: url("images/icons/arrow-right.svg");
-    //width: 9px;
-    //height: 16px;
   }
   .slick-prev:before {
     display: none;
-    //content: url("images/icons/arrow-left.svg");
-    //width: 9px;
-    //height: 16px;
   }
   .slick-prev {
     background: url("images/icons/arrow-left.svg") center;

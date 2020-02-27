@@ -7,7 +7,6 @@
   }
   @media (min-width: 768px) and (max-width: 991px) {
     width: 83%;
-    //padding: 62px 0 130px;
   }
   @media (max-width: 991px) {
     padding-top: 36px;
@@ -18,9 +17,6 @@
     span {
       font-family: $light-font;
       display: block;
-      //@media (max-width: 767px) {
-      //  display: inline;
-      //}
     }
   }
   &__subheading {

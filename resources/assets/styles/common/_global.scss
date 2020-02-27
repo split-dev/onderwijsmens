@@ -13,10 +13,6 @@
     /* IE10+ CSS styles go here */
     -ms-overflow-style: none;
   }
-  //@supports (-ms-accelerator:true) {
-  //  /* IE Edge 12+ CSS styles go here */
-  //  padding-top: 5px;
-  //}
   &:after {
     content: "";
     position: absolute;
@@ -73,9 +69,6 @@
     @media (max-width: 575px) {
       padding-bottom: 120px;
     }
-    //@media (max-width: 575px) {
-    //  padding-top: 0;
-    //}
     h1 {
       @media (max-width: 575px) {
         max-width: 345px;
@@ -85,14 +78,6 @@
       padding-right: 0;
       @media (min-width: 768px) and (max-width: 991px) {
         width: 50%;
-      }
-      &:before {
-        //@media (max-width: 575px) {
-        //  line-height: 48px;
-        //}
-        //@media (max-width: 360px) {
-        //  line-height: 32px;
-        //}
       }
     }
   }
@@ -197,12 +182,8 @@
       left: 50%;
       transform: translate(-50%);
     }
-    @media (max-width: 575px) {
-      //top: 347px;
-    }
     @media (max-width: 360px) {
       width: 290px;
-      //top: 25%;
     }
     img {
       width: 100%;
@@ -231,11 +212,6 @@
 //hoogte pages
 .nieuws-1,
 .referenties-1 {
-  //.main-header {
-  //  @media (max-width: 767px) {
-  //    padding-bottom: 120px;
-  //  }
-  //}
   .hoogte-bg {
     height: 235px;
     background-color: #fff;
