@@ -167,7 +167,7 @@
       max-width: 204px;
       &:hover {
         padding: 13px;
-        background: lighten($green-accent, 10%);
+        background: lighten($green-accent, 3%);
         //border: 1px solid lighten($violet-accent, 80%);
       }
       @media (max-width: 767px) {
@@ -208,6 +208,9 @@
 .slick-dots li button:before {
   content: url("images/icons/bullet.svg");
   position: static;
+}
+.slick-list .draggable {
+  background-color: #fff;
 }
 .feedback__miniature {
   width: 361px;
@@ -253,7 +256,8 @@
       content: "";
       position: absolute;
       height: 20px;
-      top: -20px;
+      //top: -20px;
+      bottom: 100%;
       left: 0;
       right: 15.8%; /* 69px; */
       border-bottom: 20px solid rgba(66, 6, 74, 0.9);
@@ -269,7 +273,8 @@
       content: "";
       position: absolute;
       height: 20px;
-      top: -20px;
+      //top: -20px;
+      bottom: 100%;
       left: 83.9%;
       right: 0;
       border-bottom: 20px solid rgba(66, 6, 74, 0.9);

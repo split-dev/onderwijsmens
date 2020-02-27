@@ -45,6 +45,11 @@
         transform: translate(-50%, -50%);
         right: 0;
       }
+      &:hover {
+        &:after {
+          opacity: initial;
+        }
+      }
     }
   }
 }

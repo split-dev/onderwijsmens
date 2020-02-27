@@ -43,7 +43,7 @@
     background-color: $green-accent;
     &:hover {
       padding: 13px;
-      background: lighten($green-accent, 10%);
+      background: lighten($green-accent, 3%);
     }
   }
   a:nth-of-type(3) {
