@@ -59,7 +59,6 @@ export default {
       ],
     });
     $('#contact-select').select2({
-      // dropdownParent: $('#buy__form-select-wrapper1'),
       placeholder: 'Stuur mij informatie over...',
     });
 
@@ -111,9 +110,6 @@ export default {
     //     burger.classList.remove('onscroll1');
     //   }
     // };
-    // $('.primary-btn').hover(function () {
-    //   $(this).addClass('bounceOutRight');
-    // })
   },
 
   // JavaScript to be fired on all pages, after page specific JS is fired
