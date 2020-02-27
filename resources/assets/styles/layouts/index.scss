@@ -1,4 +1,8 @@
 .index {
+  @supports (-ms-accelerator:true) {
+    /* IE Edge 12+ CSS styles go here */
+    overflow-x: hidden;
+  }
   .hoogte-bg {
     height: 266px;
     background-color: #fff;
