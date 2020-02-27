@@ -102,6 +102,17 @@ export default {
       contact2.addClass('mobile-menu-interaction');
     }
 
+    // let burger = document.getElementById('burger');
+    // window.onscroll = function() {
+    //   if (window.pageYOffset >= 285) {
+    //     burger.classList.add('onscroll1');
+    //   } else {
+    //     burger.classList.remove('onscroll1');
+    //   }
+    // };
+    // $('.primary-btn').hover(function () {
+    //   $(this).addClass('bounceOutRight');
+    // })
   },
 
   // JavaScript to be fired on all pages, after page specific JS is fired

@@ -166,6 +166,10 @@
       margin-top: 52px;
       max-width: 204px;
       background-color: $pink-accent;
+      &:hover {
+        padding: 13px;
+        background: lighten($pink-accent, 10%);
+      }
       @media (max-width: 767px) {
         margin-left: auto;
         margin-right: auto;

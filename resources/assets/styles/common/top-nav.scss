@@ -8,7 +8,6 @@
     @media (max-width: 991px) {
       position: absolute;
       top: 20px;
-      //left: 15px;
     }
     img {
       @media (max-width: 767px) {
@@ -49,8 +48,40 @@
         color: #fff;
         font-family: $nexa-bold;
         //line-height: 1.31;
-        &:hover {
-          color: black;
+      }
+      li:nth-of-type(1),
+      li:nth-of-type(2),
+      li:nth-of-type(3),
+      li:nth-of-type(4),
+      li:nth-of-type(5),
+      li:nth-of-type(6) {
+        a {
+          &:after {
+            opacity: 0;
+            position: absolute;
+            content: "";
+            background: url("images/icons/underline-white.svg") no-repeat;
+            background-size: cover;
+            right: 0;
+            bottom: -4px;
+            left: -4px;
+            width: 110%;
+            height: 3px;
+            transition: 0.3s;
+          }
+          &:hover {
+            text-decoration: none;
+            &:after {
+              opacity: 1;
+              bottom: 0;
+            }
+          }
+        }
+      }
+      li:nth-of-type(7),
+      li:nth-of-type(8),
+      li:nth-of-type(9) {
+        a:hover {
           text-decoration: none;
         }
       }

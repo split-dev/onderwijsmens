@@ -1,9 +1,6 @@
 .footer {
   a {
     text-decoration: none;
-    //&:hover {
-    //  text-decoration: none;
-    //}
   }
   &__top {
     display: flex;
@@ -57,17 +54,6 @@
     a {
       @include body-typo;
       transition: 0.4s;
-      //&:after {
-      //  content: "";
-      //  display: block;
-      //  width: 0;
-      //  height: 1px;
-      //  background: $text-color;
-      //  transition: width 0.4s;
-      //}
-      //&:hover::after {
-      //  width: 50%;
-      //}
       &:hover {
         background-color: #f0f3f6;
       }
@@ -133,6 +119,10 @@
       height: 36px;
       background-color: $violet-accent;
       border-radius: 3px;
+      transition: 0.3s;
+      &:hover {
+        border-radius: 50%;
+      }
     }
   }
   &__green-links {
@@ -155,8 +145,11 @@
         transition: 0.3s;
       }
       &:hover {
-        text-decoration: underline;
-        //color: darken($green-accent, 15%);
+        text-decoration: none;
+        color: darken($green-accent, 20%);
+        &:after {
+          opacity: 0;
+        }
       }
     }
     a:last-of-type {

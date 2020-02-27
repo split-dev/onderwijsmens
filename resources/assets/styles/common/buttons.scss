@@ -18,6 +18,16 @@
     width: 20px;
     height: 16px;
     transition: 0.3s;
+    opacity: 1;
+  }
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    &:after {
+      right: 0;
+      opacity: 0;
+      transition: 0.1s;
+    }
   }
 }
 
@@ -47,6 +57,14 @@
     transition: 0.3s;
   }
   &:hover {
-    @include link-hover;
+    color: $green-accent;
+    text-decoration: none;
+    padding: 13px;
+
+    &:after {
+      right: 0;
+      opacity: 0;
+      transition: 0.1s;
+    }
   }
 }

@@ -17,6 +17,10 @@
   .hoogte__button {
     a {
       background-color: $green-accent;
+      &:hover {
+        padding: 13px;
+        background: lighten($green-accent, 10%);
+      }
     }
   }
 }

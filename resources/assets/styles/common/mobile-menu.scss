@@ -212,3 +212,10 @@
     height: 3px;
   }
 }
+.onscroll1 {
+  &:before,
+  button,
+  &:after {
+    background-color: $text-color;
+  }
+}

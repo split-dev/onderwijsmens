@@ -29,14 +29,17 @@
   }
   .hoogte-wrap .custom-container {
     position: absolute;
-    top: -270px;
+    top: -324px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     z-index: 1;
-    //@media (max-width: 767px) {
-    //  top: -255px;
-    //}
+    @media (max-width: 767px) {
+      top: -270px;
+    }
+    @media (max-width: 320px) {
+      top: -300px;
+    }
   }
   .feedback-bg {
     background: rgb(236, 240, 244);
@@ -45,13 +48,16 @@
     height: 100%;
     position: relative;
     @media (max-width: 1199px) {
-      min-height: 1100px;
+      min-height: 1080px;
     }
     @media (max-width: 991px) {
       min-height: 1700px;
     }
     @media (max-width: 575px) {
       min-height: 1787px;
+    }
+    @media (max-width: 320px) {
+      min-height: 1816px;
     }
     &:after {
       height: 212px;

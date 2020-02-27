@@ -56,6 +56,11 @@
       margin-top: 42px;
       background-color: #77cbea;
       max-width: 204px;
+      &:hover {
+        padding: 13px;
+        background: darken(#77cbea, 10%);
+        //border: 1px solid lighten(#77cbea, 80%);
+      }
     }
   }
   &__support {
@@ -78,6 +83,12 @@
     a {
       width: 204px;
       background-color: #fff;
+      &:hover {
+        padding: 13px;
+        background: #fff;
+        //border: 1px solid darken($green-accent, 40%);
+        color: $green-accent;
+      }
       span {
         color: $green-accent;
       }

@@ -18,10 +18,6 @@
       top: -255px;
     }
   }
-  //.hoogte__body {
-  //  @media (max-width: 1199px) {
-  //  }
-  //}
   .feedback-bg {
     background: rgb(236, 240, 244);
     top: 0;
@@ -56,9 +52,9 @@
       h3 {
         line-height: 1.24;
         color: $text-color;
-        //@media (max-width: 991px) {
-        //  text-align: left;
-        //}
+        @media (max-width: 343px), (max-width: 1199px) and (min-width: 415px) {
+          display: block;
+        }
         strong {
           position: relative;
           display: inline;
