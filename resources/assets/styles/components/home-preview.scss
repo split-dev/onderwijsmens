@@ -2,17 +2,38 @@
   position: relative;
 }
 .home-preview-bg {
-  background: url("images/preview-bg.png") no-repeat center center;
+  background: url("images/home-preview.png") no-repeat top left;
   background-size: cover;
   z-index: -1;
-  overflow: hidden;
+  //overflow: hidden;
   height: 543px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  -ms-overflow-style: none;
+  @media (max-width: 1199px) {
+    background-position: center center;
+  }
   @media (min-width: 1921px) {
     height: 725px;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    width: 115%;
+    height: 187px;
+    bottom: -106px;
+    left: -24px;
+    z-index: -1;
+    background-color: #fff;
+    transform: rotate(-174.4deg);
+    @media (min-width: 1921px) {
+      height: 249px;
+      bottom: -58px;
+    }
   }
 }
 .home-preview {

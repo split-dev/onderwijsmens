@@ -13,6 +13,12 @@
     /* IE10+ CSS styles go here */
     -ms-overflow-style: none;
   }
+  @media (max-width: 1199px) {
+    background-position: center center !important;
+  }
+  @media (min-width: 1921px) {
+    background-position: top left !important;
+  }
   &:after {
     content: "";
     position: absolute;
@@ -187,6 +193,7 @@
     }
     img {
       width: 100%;
+      clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     }
   }
 }
@@ -333,15 +340,12 @@
     }
   }
 }
-.index,
-.nieuws-2 {
-  .miniature__content a {
-    &:hover {
-      color: $purple-accent;
-      text-decoration: none;
-    }
-  }
-}
+//.index,
+//.nieuws-2 {
+//  .miniature__content a {
+//
+//  }
+//}
 
 .index,
 .over-ons,
