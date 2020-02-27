@@ -12,6 +12,18 @@ export default {
       $('body').toggleClass('body-hidden');
     });
 
+    let topnav = document.getElementById('top-nav');
+    // let burger = document.getElementById('burger');
+    window.onscroll = function() {
+      if (window.pageYOffset >= 50) {
+        topnav.classList.add('onscroll1');
+        // burger.classList.add('onscroll-burger');
+
+      } else {
+        topnav.classList.remove('onscroll1');
+      }
+    };
+
     $('.feedback__slider-init').slick({
       infinite: true,
       slidesToShow: 1,

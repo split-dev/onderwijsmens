@@ -1,5 +1,5 @@
 .home-hero-bg {
-  background: url("images/home-bg.png") no-repeat top left;
+  background: url("images/home-bg.png") no-repeat center center;
   background-size: cover;
   z-index: -1;
   overflow: hidden;
@@ -34,7 +34,7 @@
     width: 100%;
     margin-bottom: 114px;
     h2 {
-      padding-top: 84px;
+      padding-top: 201px;
       padding-bottom: 34px;
       span {
         font-family: $light-font;

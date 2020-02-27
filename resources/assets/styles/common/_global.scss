@@ -333,3 +333,51 @@
     }
   }
 }
+.index,
+.nieuws-2 {
+  .miniature__content a {
+    &:hover {
+      color: $purple-accent;
+      text-decoration: none;
+    }
+  }
+}
+
+.index,
+.over-ons,
+.opleidingen-1,
+.opleidingen-2,
+.contact-page {
+  .onscroll1 {
+    background: rgb(53, 173, 216);
+    transition: 0.5s;
+  }
+}
+
+.scholen-1,
+.scholen-2 {
+  .onscroll1 {
+    background: $purple-accent;
+    transition: 0.5s;
+  }
+}
+.downloads {
+  .onscroll1 {
+    background: rgb(23, 79, 141);
+    transition: 0.5s;
+  }
+}
+.nieuws-1,
+.nieuws-2 {
+  .onscroll1 {
+    background: $violet-accent;
+    transition: 0.5s;
+  }
+}
+.referenties-1,
+.referenties-2 {
+  .onscroll1 {
+    background: $green-accent;
+    transition: 0.5s;
+  }
+}
