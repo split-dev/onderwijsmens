@@ -63,10 +63,11 @@
   }
   &__photo {
     width: 487px;
+    height: 563px;
     position: absolute;
     top: 170px;
     right: 0;
-    height: 100%;
+    overflow: hidden;
     @media (max-width: 1499px) {
       width: 440px;
     }
