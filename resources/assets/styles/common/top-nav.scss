@@ -112,7 +112,7 @@
 }
 
 .top-nav-interaction {
-  &:after {
+  &:before {
     position: absolute;
     content: "";
     background: url("images/icons/underline-white.svg") no-repeat;
@@ -124,15 +124,20 @@
     height: 3px;
   }
 }
+.top-nav-interaction-onscroll {
+  &:before {
+    background: url("images/icons/underline-purple.svg") no-repeat !important;
+  }
+}
 .onscroll1 {
   background: #fff;
   transition: 0.5s;
 }
 .onscroll-text-color {
-  color: $text-color;
+  color: $text-color !important;
 }
 .onscroll-social-color {
   g g path {
-    fill: $violet-accent;
+    fill: $violet-accent !important;
   }
 }
