@@ -7,7 +7,8 @@
   position: relative;
   @include flex-center;
   @include button-typo;
-  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16), 3px 3px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.17), 3px 3px 6px rgba(0, 0, 0, 0.08);
+  //box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16), 3px 3px 6px rgba(0, 0, 0, 0.05);
   outline: none;
   &:after {
     content: url("images/icons/arrow.svg");

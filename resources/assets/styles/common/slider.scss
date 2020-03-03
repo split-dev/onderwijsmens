@@ -95,6 +95,7 @@
   }
   &__slider {
     background: #fff;
+    border-radius: 5px;
     @media (max-width: 1199px) {
       width: 84%;
     }
@@ -106,7 +107,8 @@
     max-width: 815px;
     width: 100%;
     position: relative;
-    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    box-shadow: 0 0 14px rgba(66, 172, 227, 0.2);
     @media (max-width: 1499px) {
       max-width: 730px;
     }
@@ -119,7 +121,6 @@
     width: 100%;
     padding: 57px 53px 18px;
     background: #fff;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
     border-radius: 5px;
     @media (max-width: 1199px) {
       max-width: 100%;

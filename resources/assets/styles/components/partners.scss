@@ -26,8 +26,10 @@
   }
   &__all {
     @include flex-center;
-    box-shadow: $shadow-2;
+    //box-shadow: $shadow-2;
+    box-shadow: 0 0 14px rgba(66, 172, 227, 0.2);
     width: 100%;
+    border-radius: 5px;
   }
   &__slider-wrap {
     max-width: 1115px;

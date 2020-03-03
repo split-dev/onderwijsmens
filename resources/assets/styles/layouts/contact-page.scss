@@ -44,20 +44,32 @@
   .feedback-bg {
     background: rgb(236, 240, 244);
     top: 0;
-    min-height: 818px;
+    min-height: 833px;
     height: 100%;
     position: relative;
     @media (max-width: 1199px) {
-      min-height: 1080px;
+      min-height: 1095px;
     }
     @media (max-width: 991px) {
-      min-height: 1700px;
+      min-height: 1718px;
+    }
+    @media (max-width: 768px) {
+      min-height: 1778px;
     }
     @media (max-width: 575px) {
-      min-height: 1787px;
+      min-height: 1788px;
+    }
+    @media (max-width: 405px) {
+      min-height: 1805px;
+    }
+    @media (max-width: 355px) {
+      min-height: 1831px;
     }
     @media (max-width: 320px) {
-      min-height: 1816px;
+      min-height: 1806px;
+    }
+    @media (min-width: 1921px) {
+      min-height: 855px;
     }
     &:after {
       height: 212px;

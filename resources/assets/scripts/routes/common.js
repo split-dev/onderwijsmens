@@ -13,14 +13,22 @@ export default {
     });
 
     let topnav = document.getElementById('top-nav');
-    // let burger = document.getElementById('burger');
+    let logo = document.querySelector('.top-nav__logo > a > img');
+    let linkColor = document.querySelectorAll('.top-nav__menu ul li a');
+    let socialColor = document.querySelectorAll('.top-nav__menu ul li a svg');
     window.onscroll = function() {
       if (window.pageYOffset >= 50) {
         topnav.classList.add('onscroll1');
+        logo.setAttribute('src', 'images/icons/logo-purple.svg');
+        linkColor.classList.add('onscroll-text-color');
+        socialColor.classList.add('onscroll-social-color');
         // burger.classList.add('onscroll-burger');
-
+        console.log(1)
       } else {
         topnav.classList.remove('onscroll1');
+        logo.setAttribute('src', 'images/icons/logo.svg');
+        linkColor.classList.remove('onscroll-text-color');
+        socialColor.classList.remove('onscroll-social-color');
       }
     };
 
