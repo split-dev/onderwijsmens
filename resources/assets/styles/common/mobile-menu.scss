@@ -35,7 +35,8 @@
   top: 0;
   width: 50%;
   height: 100%;
-  z-index: 9999;
+  //z-index: 9999;
+  z-index: 100;
   background-color: #fff;
   transition: 0.5s;
   padding: 24px;
@@ -90,51 +91,6 @@
     }
   }
 
-  &__burger {
-    display: none;
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    z-index: 101;
-    @media (max-width: 991px) {
-      display: block;
-      top: 50px;
-      right: 35px;
-    }
-    @media (max-width: 767px) {
-      display: block;
-      position: fixed;
-      width: 30px;
-      height: 30px;
-      top: 25px;
-      right: 15px;
-    }
-    &:before,
-    button,
-    &:after {
-      content: "";
-      display: block;
-      height: 2px;
-      width: 100%;
-      background: #fff;
-      opacity: 1;
-      padding: 0;
-      transform: rotate(0);
-      transition: 0.25s ease-in-out;
-      @media (max-width: 991px) {
-        margin-bottom: 10px;
-      }
-      @media (max-width: 767px) {
-        margin-bottom: 8px;
-        width: 30px;
-      }
-    }
-    button {
-      border: none;
-      outline: none;
-    }
-  }
   &__btn {
     margin-bottom: 6px;
     padding-top: 32px;
@@ -174,14 +130,10 @@
     right: 0;
   }
   &--close-btn {
-    &::before {
-      background: transparent;
-    }
-    button {
-      display: none;
-    }
+    &::before,
+    button,
     &::after {
-      background: transparent;
+      background: transparent !important;
     }
   }
 }
@@ -199,10 +151,55 @@
     height: 3px;
   }
 }
-//.onscroll-burger {
-//  &:before,
-//  button,
-//  &:after {
-//    background-color: $text-color;
-//  }
-//}
+.mobile-menu__burger {
+  display: none;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 101;
+  @media (max-width: 991px) {
+    display: block;
+    top: 50px;
+    right: 35px;
+  }
+  @media (max-width: 767px) {
+    display: block;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: 25px;
+    right: 15px;
+  }
+  &:before,
+  button,
+  &:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    opacity: 1;
+    padding: 0;
+    transform: rotate(0);
+    transition: 0.25s ease-in-out;
+    @media (max-width: 991px) {
+      margin-bottom: 10px;
+    }
+    @media (max-width: 767px) {
+      margin-bottom: 8px;
+      width: 30px;
+    }
+  }
+  button {
+    border: none;
+    outline: none;
+  }
+}
+.onscroll-burger {
+  &:before,
+  button,
+  &:after {
+    background-color: $text-color;
+  }
+}
