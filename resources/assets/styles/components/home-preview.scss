@@ -5,15 +5,15 @@
   background: url("images/home-preview.png") no-repeat top left;
   background-size: cover;
   z-index: -1;
-  //overflow: hidden;
+  overflow: hidden;
   height: 543px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  overflow-x: hidden;
-  overflow-y: visible;
-  -ms-overflow-style: none;
+  //overflow-x: hidden;
+  //overflow-y: visible;
+  //-ms-overflow-style: none;
   @media (max-width: 1199px) {
     background-position: center center;
   }
