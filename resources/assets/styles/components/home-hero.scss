@@ -8,11 +8,17 @@
   top: 0;
   left: 0;
   width: 100%;
+  //overflow-x: hidden;
   overflow-y: visible;
   -ms-overflow-style: none;
   @media screen and (-webkit-min-device-pixel-ratio: 0) {
-    overflow-x: hidden;
+    @supports (not (-ms-accelerator:true)) and (not (-moz-appearance:none)) {
+      overflow-x: hidden;
+    }
   }
+  //@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  //  overflow-x: hidden;
+  //}
   @-moz-document url-prefix() {
     overflow-x: hidden;
   }
