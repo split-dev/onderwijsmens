@@ -169,32 +169,102 @@
   }
   &__photo {
     width: 487px;
+    height: 563px;
     position: absolute;
     top: 170px;
     right: 0;
-    height: 100%;
     @media (max-width: 1499px) {
-      width: 440px;
+      transform: scale(0.85);
+      right: -30px;
     }
     @media (max-width: 1199px) {
-      width: 370px;
+      transform: scale(0.75);
+      right: -60px;
+      top: 130px;
     }
     @media (max-width: 991px) {
-      width: 345px;
-      top: 260px;
+      transform: scale(0.65);
+      top: 170px;
     }
     @media (max-width: 767px) {
-      top: 378px;
-      left: 50%;
-      transform: translate(-50%);
+      top: 284px;
+      left: 0;
+      margin: auto;
+      right: 0;
     }
-    @media (max-width: 360px) {
-      width: 290px;
-    }
-    img {
-      width: 100%;
-      clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    }
+    //@media (max-width: 360px) {
+    //  width: 290px;
+    //}
+    //img {
+    //  width: 100%;
+    //  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    //}
+  }
+  .hexagon {
+    position: relative;
+    width: 487px;
+    height: 281.17px;
+    margin: 140.58px 0;
+    background-image: url("images/scholen1.png");
+    background-size: auto 562.3392px;
+    background-position: center;
+  }
+
+  .hexTop,
+  .hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 344.36px;
+    height: 344.36px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 71.32px;
+  }
+
+  /* counter transform the bg image on the caps */
+  .hexTop:after,
+  .hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 487px;
+    height: 281.1695810953478px;
+    -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-140.5848px);
+    -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-140.5848px);
+    transform: rotate(45deg) scaleY(1.7321) translateY(-140.5848px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+  }
+
+  .hexTop {
+    top: -172.1805px;
+  }
+
+  .hexTop:after {
+    background-position: center top;
+  }
+
+  .hexBottom {
+    bottom: -172.1805px;
+  }
+
+  .hexBottom:after {
+    background-position: center bottom;
+  }
+
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 487px;
+    height: 281.1696px;
+    z-index: 2;
+    background: inherit;
   }
 }
 
