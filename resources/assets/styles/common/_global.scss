@@ -192,6 +192,9 @@
       margin: auto;
       right: 0;
     }
+    @media (max-width: 518px) {
+      transform-origin: top;
+    }
     //@media (max-width: 360px) {
     //  width: 290px;
     //}
@@ -208,6 +211,7 @@
     background-image: url("images/scholen1.png");
     background-size: auto 562.3392px;
     background-position: center;
+    background-repeat: no-repeat;
   }
 
   .hexTop,
