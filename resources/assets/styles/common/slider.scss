@@ -5,9 +5,10 @@
   background: url("images/slider-bg.png") top left no-repeat;
   background-size: cover;
   z-index: -1;
-  overflow-x: hidden;
-  overflow-y: visible;
-  -ms-overflow-style: none;
+  overflow: hidden;
+  //overflow-x: hidden;
+  //overflow-y: visible;
+  //-ms-overflow-style: none;
   position: absolute;
   top: 0;
   left: 0;
