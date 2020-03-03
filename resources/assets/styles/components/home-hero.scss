@@ -2,26 +2,26 @@
   background: url("images/home-bg.png") no-repeat top left;
   background-size: cover;
   z-index: -1;
-  //overflow: hidden;
+  overflow: hidden;
   height: 828px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   //overflow-x: hidden;
-  overflow-y: visible;
+  //overflow-y: hidden;
   -ms-overflow-style: none;
-  @media screen and (-webkit-min-device-pixel-ratio: 0) {
-    @supports (not (-ms-accelerator:true)) and (not (-moz-appearance:none)) {
-      overflow-x: hidden;
-    }
-  }
+  //@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  //  @supports (not (-ms-accelerator:true)) and (not (-moz-appearance:none)) {
+  //    overflow-x: hidden;
+  //  }
+  //}
   //@media screen and (-webkit-min-device-pixel-ratio: 0) {
   //  overflow-x: hidden;
   //}
-  @-moz-document url-prefix() {
-    overflow-x: hidden;
-  }
+  //@-moz-document url-prefix() {
+  //  overflow-x: hidden;
+  //}
   @media (max-width: 1199px) {
     background-position: center center;
   }
