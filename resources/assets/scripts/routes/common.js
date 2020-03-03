@@ -56,12 +56,15 @@ export default {
     let logo = $('.top-nav__logo > a > img');
     let linkColor = $('.top-nav__menu ul li a');
     let socialColor = $('.top-nav__menu ul li a svg');
+    let burger = $('#burger');
+
     $(window).scroll(function() {
       if ($(this).scrollTop() >= 10) {
         topnav.addClass('onscroll1');
         linkColor.addClass('onscroll-text-color');
         socialColor.addClass('onscroll-social-color');
         logo.attr('src', 'images/icons/logo-purple.svg');
+        burger.addClass('onscroll-burger');
         if (bodyTag.hasClass('scholen-1')) {
           scholen.addClass('top-nav-interaction-onscroll');
         }
@@ -91,6 +94,7 @@ export default {
         opleidingen.removeClass('top-nav-interaction-onscroll');
         downloads.removeClass('top-nav-interaction-onscroll');
         contact.removeClass('top-nav-interaction-onscroll');
+        burger.removeClass('onscroll-burger');
       }
     });
 
@@ -145,12 +149,11 @@ export default {
       placeholder: 'Stuur mij informatie over...',
     });
 
-    // let burger = document.getElementById('burger');
     // window.onscroll = function() {
     //   if (window.pageYOffset >= 285) {
-    //     burger.classList.add('onscroll1');
+    //
     //   } else {
-    //     burger.classList.remove('onscroll1');
+    //     burger.classList.remove('onscroll-burger');
     //   }
     // };
   },
