@@ -5,6 +5,9 @@
   }
   .scholen-hex {
     padding-bottom: 55.5px;
+    .hexagon {
+      background-image: url("images/ref-2.png");
+    }
   }
   .main-header {
     @media (min-width: 992px) and (max-width: 1199px) {
