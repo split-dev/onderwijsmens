@@ -57,7 +57,43 @@ export default {
     let linkColor = $('.top-nav__menu ul li a');
     let socialColor = $('.top-nav__menu ul li a svg');
     let burger = $('#burger');
-
+    if ($(window).scrollTop() >= 10) {
+      topnav.addClass('onscroll1');
+      linkColor.addClass('onscroll-text-color');
+      socialColor.addClass('onscroll-social-color');
+      logo.attr('src', 'images/icons/logo-purple.svg');
+      burger.addClass('onscroll-burger');
+      if (bodyTag.hasClass('scholen-1')) {
+        scholen.addClass('top-nav-interaction-onscroll');
+      }
+      if (bodyTag.hasClass('scholen-2')) {
+        bestuur.addClass('top-nav-interaction-onscroll');
+      }
+      if (bodyTag.hasClass('over-ons')) {
+        overons.addClass('top-nav-interaction-onscroll');
+      }
+      if (bodyTag.hasClass('opleidingen-1')) {
+        opleidingen.addClass('top-nav-interaction-onscroll');
+      }
+      if (bodyTag.hasClass('downloads')) {
+        downloads.addClass('top-nav-interaction-onscroll');
+      }
+      if (bodyTag.hasClass('contact-page')) {
+        contact.addClass('top-nav-interaction-onscroll');
+      }
+    } else {
+      topnav.removeClass('onscroll1');
+      linkColor.removeClass('onscroll-text-color');
+      socialColor.removeClass('onscroll-social-color');
+      logo.attr('src', 'images/icons/logo.svg');
+      scholen.removeClass('top-nav-interaction-onscroll');
+      bestuur.removeClass('top-nav-interaction-onscroll');
+      overons.removeClass('top-nav-interaction-onscroll');
+      opleidingen.removeClass('top-nav-interaction-onscroll');
+      downloads.removeClass('top-nav-interaction-onscroll');
+      contact.removeClass('top-nav-interaction-onscroll');
+      burger.removeClass('onscroll-burger');
+    }
     $(window).scroll(function() {
       if ($(this).scrollTop() >= 10) {
         topnav.addClass('onscroll1');
