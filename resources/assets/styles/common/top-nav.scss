@@ -112,6 +112,11 @@
 }
 
 .top-nav-interaction {
+  &:hover {
+    &:after {
+      content: none !important;
+    }
+  }
   &:before {
     position: absolute;
     content: "";
@@ -127,6 +132,11 @@
 .top-nav-interaction-onscroll {
   &:before {
     background: url("images/icons/underline-purple.svg") no-repeat !important;
+  }
+  &:hover {
+    &:after {
+      content: none !important;
+    }
   }
 }
 .onscroll1 {
